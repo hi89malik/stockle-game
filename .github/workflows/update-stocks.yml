@@ -1,0 +1,65 @@
+name: Weekly Stock Data Update & Deploy
+
+on:
+  schedule:
+    # Runs every Sunday at 00:00 UTC (before Monday markets open)
+    - cron: '0 0 * * 0'
+  workflow_dispatch: # Allows manual trigger anytime from GitHub Actions tab
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch Latest Stock Market Data
+        run: |
+          python scripts/build_stocks.py
+
+      - name: Commit and Push Updated Stock Data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/ public/
+          if git diff --staged --quiet; then
+            echo "No changes in stock data this run."
+          else
+            git commit -m "Automated update: refresh weekly stock charts and market data"
+            git push origin main
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Production Bundle
+        run: npm run build
+
+      - name: Upload GitHub Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

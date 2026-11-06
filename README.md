@@ -69,13 +69,15 @@ The stock dataset is curated from the **100 largest and most active companies** 
 
 ## Refreshing / Updating Stock Data
 
-A Python script is included to fetch the latest weekly historical price points directly into JSON:
+Stock data is updated automatically every Sunday at 00:00 UTC via GitHub Actions (.github/workflows/update-stocks.yml). The workflow fetches the latest weekly market candles, commits the updated datasets, and rebuilds the live site automatically.
+
+You can also run the Python script locally to fetch the latest weekly historical price points directly into JSON:
 
 ```bash
 python scripts/build_stocks.py
 ```
 
-This updates both `src/data/stocks.json` and `src/data/stocksMeta.json` with fresh market data in ~2 seconds.
+This updates `src/data/stocks.json`, `src/data/stocksMeta.json`, and `public/` with fresh market data in ~2 seconds.
 
 ---
 

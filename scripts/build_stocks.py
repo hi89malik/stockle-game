@@ -211,6 +211,13 @@ def main():
     } for s in results]
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(meta_list, f, indent=2)
+
+    # Sync to public directory for static asset delivery
+    os.makedirs("public", exist_ok=True)
+    with open("public/stocks.json", "w", encoding="utf-8") as f:
+        json.dump(results, f, separators=(',', ':'))
+    with open("public/stocksMeta.json", "w", encoding="utf-8") as f:
+        json.dump(meta_list, f, indent=2)
         
     size_kb = os.path.getsize(output_path) / 1024
     print(f"\nDone! Successfully fetched and compiled {len(results)} stocks in {time.time()-t0:.2f}s.")
