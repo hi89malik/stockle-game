@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import React, { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import Header from './components/Header';
 import StockChart from './components/StockChart';
 import ClueBar from './components/ClueBar';
@@ -39,6 +39,9 @@ export default function App() {
   const [showStatsModal, setShowStatsModal] = useState(false);
   const [showHowToPlayModal, setShowHowToPlayModal] = useState(false);
 
+  // Track whether completion modal was already displayed during this session
+  const hasShownDailyModalThisSession = useRef(false);
+
   // Sound state
   const [isMuted, setIsMuted] = useState(sound.isMuted());
 
@@ -71,7 +74,11 @@ export default function App() {
         setIsGameOver(saved.isGameOver || false);
         setIsWon(saved.isWon || false);
         if (saved.isGameOver) {
-          setShowGameOverModal(true);
+          // Only show automatically once per session; reloading page shows it again
+          if (!hasShownDailyModalThisSession.current) {
+            setShowGameOverModal(true);
+            hasShownDailyModalThisSession.current = true;
+          }
         }
       } else {
         // Fresh daily game
@@ -117,6 +124,7 @@ export default function App() {
         recordGameResult(true, newGuesses.length, gameMode === 'daily', getTodayDateString());
 
         if (gameMode === 'daily') {
+          hasShownDailyModalThisSession.current = true;
           saveDailyState(getTodayDateString(), {
             targetTicker: currentStock.ticker,
             yearSpan: currentStock.yearSpan,
@@ -137,6 +145,7 @@ export default function App() {
           recordGameResult(false, newGuesses.length, gameMode === 'daily', getTodayDateString());
 
           if (gameMode === 'daily') {
+            hasShownDailyModalThisSession.current = true;
             saveDailyState(getTodayDateString(), {
               targetTicker: currentStock.ticker,
               yearSpan: currentStock.yearSpan,
@@ -180,6 +189,7 @@ export default function App() {
     recordGameResult(false, guesses.length, gameMode === 'daily', getTodayDateString());
 
     if (gameMode === 'daily') {
+      hasShownDailyModalThisSession.current = true;
       saveDailyState(getTodayDateString(), {
         targetTicker: currentStock.ticker,
         yearSpan: currentStock.yearSpan,
@@ -278,7 +288,7 @@ export default function App() {
               onClick={() => setShowGameOverModal(true)}
               className="px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-xs font-semibold text-emerald-400 transition cursor-pointer"
             >
-              View Game Results & Share Score 📊
+              View Game Results & Share Score
             </button>
           </div>
         )}

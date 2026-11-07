@@ -75,7 +75,7 @@ export function createStockChallenge(baseStock, yearSpan = null, startIndex = nu
   const endMonth = monthNames[parseInt(lastDate.slice(5, 7), 10) - 1] || '';
 
   // Format year range for Clue #1
-  const dateRangeYears = startYr === endYr ? `${startYr}` : `${startYr} – ${endYr}`;
+  const dateRangeYears = startYr === endYr ? `${startYr}` : `${startYr} - ${endYr}`;
   const dateRangeFull = `${startMonth} ${startYr} to ${endMonth} ${endYr}`;
 
   // Recalculate price stats for this specific sliced window

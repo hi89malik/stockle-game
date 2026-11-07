@@ -5,15 +5,19 @@
     "sector": "Information Technology",
     "industry": "Consumer Electronics",
     "marketCap": "$3.45 Trillion",
-    "marketCapNum": 3450
+    "marketCapNum": 3450,
+    "peRatio": "34.2x",
+    "foundedYear": 1976
   },
   {
     "ticker": "MSFT",
     "name": "Microsoft Corporation",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Infrastructure",
+    "industry": "Software - Infrastructure",
     "marketCap": "$3.15 Trillion",
-    "marketCapNum": 3150
+    "marketCapNum": 3150,
+    "peRatio": "35.5x",
+    "foundedYear": 1975
   },
   {
     "ticker": "NVDA",
@@ -21,7 +25,9 @@
     "sector": "Information Technology",
     "industry": "Semiconductors",
     "marketCap": "$3.35 Trillion",
-    "marketCapNum": 3350
+    "marketCapNum": 3350,
+    "peRatio": "52.1x",
+    "foundedYear": 1993
   },
   {
     "ticker": "GOOGL",
@@ -29,7 +35,9 @@
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
     "marketCap": "$2.15 Trillion",
-    "marketCapNum": 2150
+    "marketCapNum": 2150,
+    "peRatio": "24.8x",
+    "foundedYear": 1998
   },
   {
     "ticker": "AMZN",
@@ -37,7 +45,9 @@
     "sector": "Consumer Discretionary",
     "industry": "Internet Retail",
     "marketCap": "$2.05 Trillion",
-    "marketCapNum": 2050
+    "marketCapNum": 2050,
+    "peRatio": "42.6x",
+    "foundedYear": 1994
   },
   {
     "ticker": "META",
@@ -45,7 +55,9 @@
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
     "marketCap": "$1.45 Trillion",
-    "marketCapNum": 1450
+    "marketCapNum": 1450,
+    "peRatio": "28.4x",
+    "foundedYear": 2004
   },
   {
     "ticker": "TSLA",
@@ -53,7 +65,9 @@
     "sector": "Consumer Discretionary",
     "industry": "Auto Manufacturers",
     "marketCap": "$800 Billion",
-    "marketCapNum": 800
+    "marketCapNum": 800,
+    "peRatio": "98.5x",
+    "foundedYear": 2003
   },
   {
     "ticker": "AVGO",
@@ -61,7 +75,9 @@
     "sector": "Information Technology",
     "industry": "Semiconductors",
     "marketCap": "$780 Billion",
-    "marketCapNum": 780
+    "marketCapNum": 780,
+    "peRatio": "65.4x",
+    "foundedYear": 1961
   },
   {
     "ticker": "COST",
@@ -69,7 +85,9 @@
     "sector": "Consumer Staples",
     "industry": "Discount Stores",
     "marketCap": "$390 Billion",
-    "marketCapNum": 390
+    "marketCapNum": 390,
+    "peRatio": "51.2x",
+    "foundedYear": 1983
   },
   {
     "ticker": "NFLX",
@@ -77,7 +95,9 @@
     "sector": "Communication Services",
     "industry": "Entertainment",
     "marketCap": "$300 Billion",
-    "marketCapNum": 300
+    "marketCapNum": 300,
+    "peRatio": "46.8x",
+    "foundedYear": 1997
   },
   {
     "ticker": "AMD",
@@ -85,15 +105,19 @@
     "sector": "Information Technology",
     "industry": "Semiconductors",
     "marketCap": "$240 Billion",
-    "marketCapNum": 240
+    "marketCapNum": 240,
+    "peRatio": "105.2x",
+    "foundedYear": 1969
   },
   {
     "ticker": "PEP",
     "name": "PepsiCo Inc.",
     "sector": "Consumer Staples",
-    "industry": "Beverages \u2014 Non-Alcoholic",
+    "industry": "Beverages - Non-Alcoholic",
     "marketCap": "$230 Billion",
-    "marketCapNum": 230
+    "marketCapNum": 230,
+    "peRatio": "24.1x",
+    "foundedYear": 1898
   },
   {
     "ticker": "LIN",
@@ -101,15 +125,19 @@
     "sector": "Materials",
     "industry": "Specialty Chemicals",
     "marketCap": "$210 Billion",
-    "marketCapNum": 210
+    "marketCapNum": 210,
+    "peRatio": "33.2x",
+    "foundedYear": 1879
   },
   {
     "ticker": "ADBE",
     "name": "Adobe Inc.",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Infrastructure",
+    "industry": "Software - Infrastructure",
     "marketCap": "$220 Billion",
-    "marketCapNum": 220
+    "marketCapNum": 220,
+    "peRatio": "44.5x",
+    "foundedYear": 1982
   },
   {
     "ticker": "CSCO",
@@ -117,7 +145,9 @@
     "sector": "Information Technology",
     "industry": "Communication Equipment",
     "marketCap": "$215 Billion",
-    "marketCapNum": 215
+    "marketCapNum": 215,
+    "peRatio": "19.8x",
+    "foundedYear": 1984
   },
   {
     "ticker": "TMUS",
@@ -125,7 +155,9 @@
     "sector": "Communication Services",
     "industry": "Telecom Services",
     "marketCap": "$210 Billion",
-    "marketCapNum": 210
+    "marketCapNum": 210,
+    "peRatio": "23.4x",
+    "foundedYear": 1994
   },
   {
     "ticker": "QCOM",
@@ -133,7 +165,9 @@
     "sector": "Information Technology",
     "industry": "Semiconductors",
     "marketCap": "$190 Billion",
-    "marketCapNum": 190
+    "marketCapNum": 190,
+    "peRatio": "18.2x",
+    "foundedYear": 1985
   },
   {
     "ticker": "TXN",
@@ -141,7 +175,9 @@
     "sector": "Information Technology",
     "industry": "Semiconductors",
     "marketCap": "$185 Billion",
-    "marketCapNum": 185
+    "marketCapNum": 185,
+    "peRatio": "31.7x",
+    "foundedYear": 1930
   },
   {
     "ticker": "AMGN",
@@ -149,15 +185,19 @@
     "sector": "Healthcare",
     "industry": "Biotechnology",
     "marketCap": "$170 Billion",
-    "marketCapNum": 170
+    "marketCapNum": 170,
+    "peRatio": "17.5x",
+    "foundedYear": 1980
   },
   {
     "ticker": "INTU",
     "name": "Intuit Inc.",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Application",
+    "industry": "Software - Application",
     "marketCap": "$180 Billion",
-    "marketCapNum": 180
+    "marketCapNum": 180,
+    "peRatio": "58.6x",
+    "foundedYear": 1983
   },
   {
     "ticker": "ISRG",
@@ -165,7 +205,9 @@
     "sector": "Healthcare",
     "industry": "Medical Instruments & Supplies",
     "marketCap": "$175 Billion",
-    "marketCapNum": 175
+    "marketCapNum": 175,
+    "peRatio": "74.3x",
+    "foundedYear": 1995
   },
   {
     "ticker": "CMCSA",
@@ -173,7 +215,9 @@
     "sector": "Communication Services",
     "industry": "Entertainment",
     "marketCap": "$160 Billion",
-    "marketCapNum": 160
+    "marketCapNum": 160,
+    "peRatio": "10.8x",
+    "foundedYear": 1963
   },
   {
     "ticker": "HON",
@@ -181,7 +225,9 @@
     "sector": "Industrials",
     "industry": "Conglomerates",
     "marketCap": "$140 Billion",
-    "marketCapNum": 140
+    "marketCapNum": 140,
+    "peRatio": "22.9x",
+    "foundedYear": 1906
   },
   {
     "ticker": "AMAT",
@@ -189,7 +235,9 @@
     "sector": "Information Technology",
     "industry": "Semiconductor Equipment",
     "marketCap": "$170 Billion",
-    "marketCapNum": 170
+    "marketCapNum": 170,
+    "peRatio": "23.5x",
+    "foundedYear": 1967
   },
   {
     "ticker": "BKNG",
@@ -197,7 +245,9 @@
     "sector": "Consumer Discretionary",
     "industry": "Travel Services",
     "marketCap": "$145 Billion",
-    "marketCapNum": 145
+    "marketCapNum": 145,
+    "peRatio": "30.6x",
+    "foundedYear": 1997
   },
   {
     "ticker": "VRTX",
@@ -205,7 +255,9 @@
     "sector": "Healthcare",
     "industry": "Biotechnology",
     "marketCap": "$125 Billion",
-    "marketCapNum": 125
+    "marketCapNum": 125,
+    "peRatio": "41.2x",
+    "foundedYear": 1989
   },
   {
     "ticker": "SBUX",
@@ -213,15 +265,19 @@
     "sector": "Consumer Discretionary",
     "industry": "Restaurants",
     "marketCap": "$110 Billion",
-    "marketCapNum": 110
+    "marketCapNum": 110,
+    "peRatio": "26.5x",
+    "foundedYear": 1971
   },
   {
     "ticker": "PANW",
     "name": "Palo Alto Networks",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Infrastructure",
+    "industry": "Software - Infrastructure",
     "marketCap": "$115 Billion",
-    "marketCapNum": 115
+    "marketCapNum": 115,
+    "peRatio": "48.7x",
+    "foundedYear": 2005
   },
   {
     "ticker": "MDLZ",
@@ -229,7 +285,9 @@
     "sector": "Consumer Staples",
     "industry": "Confectioners",
     "marketCap": "$95 Billion",
-    "marketCapNum": 95
+    "marketCapNum": 95,
+    "peRatio": "21.4x",
+    "foundedYear": 2012
   },
   {
     "ticker": "REGN",
@@ -237,7 +295,9 @@
     "sector": "Healthcare",
     "industry": "Biotechnology",
     "marketCap": "$110 Billion",
-    "marketCapNum": 110
+    "marketCapNum": 110,
+    "peRatio": "22.8x",
+    "foundedYear": 1988
   },
   {
     "ticker": "ADP",
@@ -245,7 +305,9 @@
     "sector": "Industrials",
     "industry": "Staffing & Employment Services",
     "marketCap": "$115 Billion",
-    "marketCapNum": 115
+    "marketCapNum": 115,
+    "peRatio": "29.3x",
+    "foundedYear": 1949
   },
   {
     "ticker": "LRCX",
@@ -253,7 +315,9 @@
     "sector": "Information Technology",
     "industry": "Semiconductor Equipment",
     "marketCap": "$105 Billion",
-    "marketCapNum": 105
+    "marketCapNum": 105,
+    "peRatio": "27.6x",
+    "foundedYear": 1980
   },
   {
     "ticker": "MU",
@@ -261,7 +325,9 @@
     "sector": "Information Technology",
     "industry": "Semiconductors",
     "marketCap": "$120 Billion",
-    "marketCapNum": 120
+    "marketCapNum": 120,
+    "peRatio": "32.1x",
+    "foundedYear": 1978
   },
   {
     "ticker": "KLAC",
@@ -269,7 +335,9 @@
     "sector": "Information Technology",
     "industry": "Semiconductor Equipment",
     "marketCap": "$95 Billion",
-    "marketCapNum": 95
+    "marketCapNum": 95,
+    "peRatio": "28.4x",
+    "foundedYear": 1975
   },
   {
     "ticker": "GILD",
@@ -277,23 +345,29 @@
     "sector": "Healthcare",
     "industry": "Biotechnology",
     "marketCap": "$105 Billion",
-    "marketCapNum": 105
+    "marketCapNum": 105,
+    "peRatio": "14.5x",
+    "foundedYear": 1987
   },
   {
     "ticker": "SNPS",
     "name": "Synopsys Inc.",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Infrastructure",
+    "industry": "Software - Infrastructure",
     "marketCap": "$85 Billion",
-    "marketCapNum": 85
+    "marketCapNum": 85,
+    "peRatio": "47.8x",
+    "foundedYear": 1986
   },
   {
     "ticker": "CDNS",
     "name": "Cadence Design Systems",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Application",
+    "industry": "Software - Application",
     "marketCap": "$80 Billion",
-    "marketCapNum": 80
+    "marketCapNum": 80,
+    "peRatio": "62.1x",
+    "foundedYear": 1988
   },
   {
     "ticker": "MELI",
@@ -301,15 +375,19 @@
     "sector": "Consumer Discretionary",
     "industry": "Internet Retail",
     "marketCap": "$95 Billion",
-    "marketCapNum": 95
+    "marketCapNum": 95,
+    "peRatio": "68.4x",
+    "foundedYear": 1999
   },
   {
     "ticker": "CRWD",
     "name": "CrowdStrike Holdings",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Infrastructure",
+    "industry": "Software - Infrastructure",
     "marketCap": "$75 Billion",
-    "marketCapNum": 75
+    "marketCapNum": 75,
+    "peRatio": "88.5x",
+    "foundedYear": 2011
   },
   {
     "ticker": "PYPL",
@@ -317,7 +395,9 @@
     "sector": "Financials",
     "industry": "Credit Services",
     "marketCap": "$80 Billion",
-    "marketCapNum": 80
+    "marketCapNum": 80,
+    "peRatio": "18.9x",
+    "foundedYear": 1998
   },
   {
     "ticker": "NXPI",
@@ -325,7 +405,9 @@
     "sector": "Information Technology",
     "industry": "Semiconductors",
     "marketCap": "$60 Billion",
-    "marketCapNum": 60
+    "marketCapNum": 60,
+    "peRatio": "21.2x",
+    "foundedYear": 2006
   },
   {
     "ticker": "MAR",
@@ -333,7 +415,9 @@
     "sector": "Consumer Discretionary",
     "industry": "Lodging",
     "marketCap": "$75 Billion",
-    "marketCapNum": 75
+    "marketCapNum": 75,
+    "peRatio": "27.8x",
+    "foundedYear": 1927
   },
   {
     "ticker": "CSX",
@@ -341,7 +425,9 @@
     "sector": "Industrials",
     "industry": "Railroads",
     "marketCap": "$70 Billion",
-    "marketCapNum": 70
+    "marketCapNum": 70,
+    "peRatio": "18.6x",
+    "foundedYear": 1827
   },
   {
     "ticker": "ORLY",
@@ -349,7 +435,9 @@
     "sector": "Consumer Discretionary",
     "industry": "Specialty Retail",
     "marketCap": "$70 Billion",
-    "marketCapNum": 70
+    "marketCapNum": 70,
+    "peRatio": "28.9x",
+    "foundedYear": 1957
   },
   {
     "ticker": "CTAS",
@@ -357,7 +445,9 @@
     "sector": "Industrials",
     "industry": "Specialty Business Services",
     "marketCap": "$75 Billion",
-    "marketCapNum": 75
+    "marketCapNum": 75,
+    "peRatio": "48.2x",
+    "foundedYear": 1968
   },
   {
     "ticker": "CHTR",
@@ -365,7 +455,9 @@
     "sector": "Communication Services",
     "industry": "Entertainment",
     "marketCap": "$50 Billion",
-    "marketCapNum": 50
+    "marketCapNum": 50,
+    "peRatio": "11.2x",
+    "foundedYear": 1993
   },
   {
     "ticker": "ABNB",
@@ -373,7 +465,9 @@
     "sector": "Consumer Discretionary",
     "industry": "Travel Services",
     "marketCap": "$85 Billion",
-    "marketCapNum": 85
+    "marketCapNum": 85,
+    "peRatio": "33.4x",
+    "foundedYear": 2008
   },
   {
     "ticker": "PCAR",
@@ -381,7 +475,9 @@
     "sector": "Industrials",
     "industry": "Heavy Construction Machinery",
     "marketCap": "$55 Billion",
-    "marketCapNum": 55
+    "marketCapNum": 55,
+    "peRatio": "12.4x",
+    "foundedYear": 1905
   },
   {
     "ticker": "LULU",
@@ -389,23 +485,29 @@
     "sector": "Consumer Discretionary",
     "industry": "Apparel Retail",
     "marketCap": "$40 Billion",
-    "marketCapNum": 40
+    "marketCapNum": 40,
+    "peRatio": "22.7x",
+    "foundedYear": 1998
   },
   {
     "ticker": "MNST",
     "name": "Monster Beverage Corp.",
     "sector": "Consumer Staples",
-    "industry": "Beverages \u2014 Non-Alcoholic",
+    "industry": "Beverages - Non-Alcoholic",
     "marketCap": "$50 Billion",
-    "marketCapNum": 50
+    "marketCapNum": 50,
+    "peRatio": "30.8x",
+    "foundedYear": 1935
   },
   {
     "ticker": "KDP",
     "name": "Keurig Dr Pepper Inc.",
     "sector": "Consumer Staples",
-    "industry": "Beverages \u2014 Non-Alcoholic",
+    "industry": "Beverages - Non-Alcoholic",
     "marketCap": "$45 Billion",
-    "marketCapNum": 45
+    "marketCapNum": 45,
+    "peRatio": "20.5x",
+    "foundedYear": 2018
   },
   {
     "ticker": "DXCM",
@@ -413,15 +515,19 @@
     "sector": "Healthcare",
     "industry": "Medical Devices",
     "marketCap": "$35 Billion",
-    "marketCapNum": 35
+    "marketCapNum": 35,
+    "peRatio": "42.1x",
+    "foundedYear": 1999
   },
   {
     "ticker": "FTNT",
     "name": "Fortinet Inc.",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Infrastructure",
+    "industry": "Software - Infrastructure",
     "marketCap": "$60 Billion",
-    "marketCapNum": 60
+    "marketCapNum": 60,
+    "peRatio": "45.6x",
+    "foundedYear": 2000
   },
   {
     "ticker": "KHC",
@@ -429,7 +535,9 @@
     "sector": "Consumer Staples",
     "industry": "Packaged Foods",
     "marketCap": "$40 Billion",
-    "marketCapNum": 40
+    "marketCapNum": 40,
+    "peRatio": "13.8x",
+    "foundedYear": 2015
   },
   {
     "ticker": "ADI",
@@ -437,7 +545,9 @@
     "sector": "Information Technology",
     "industry": "Semiconductors",
     "marketCap": "$110 Billion",
-    "marketCapNum": 110
+    "marketCapNum": 110,
+    "peRatio": "43.2x",
+    "foundedYear": 1965
   },
   {
     "ticker": "ROST",
@@ -445,7 +555,9 @@
     "sector": "Consumer Discretionary",
     "industry": "Apparel Retail",
     "marketCap": "$50 Billion",
-    "marketCapNum": 50
+    "marketCapNum": 50,
+    "peRatio": "24.9x",
+    "foundedYear": 1982
   },
   {
     "ticker": "CPRT",
@@ -453,7 +565,9 @@
     "sector": "Industrials",
     "industry": "Specialty Business Services",
     "marketCap": "$50 Billion",
-    "marketCapNum": 50
+    "marketCapNum": 50,
+    "peRatio": "35.1x",
+    "foundedYear": 1982
   },
   {
     "ticker": "IDXX",
@@ -461,7 +575,9 @@
     "sector": "Healthcare",
     "industry": "Diagnostics & Research",
     "marketCap": "$40 Billion",
-    "marketCapNum": 40
+    "marketCapNum": 40,
+    "peRatio": "43.8x",
+    "foundedYear": 1983
   },
   {
     "ticker": "PAYX",
@@ -469,15 +585,19 @@
     "sector": "Industrials",
     "industry": "Staffing & Employment Services",
     "marketCap": "$48 Billion",
-    "marketCapNum": 48
+    "marketCapNum": 48,
+    "peRatio": "26.8x",
+    "foundedYear": 1971
   },
   {
     "ticker": "EXC",
     "name": "Exelon Corporation",
     "sector": "Utilities",
-    "industry": "Utilities \u2014 Regulated Electric",
+    "industry": "Utilities - Regulated Electric",
     "marketCap": "$38 Billion",
-    "marketCapNum": 38
+    "marketCapNum": 38,
+    "peRatio": "16.5x",
+    "foundedYear": 2000
   },
   {
     "ticker": "FAST",
@@ -485,23 +605,29 @@
     "sector": "Industrials",
     "industry": "Industrial Distribution",
     "marketCap": "$40 Billion",
-    "marketCapNum": 40
+    "marketCapNum": 40,
+    "peRatio": "34.7x",
+    "foundedYear": 1967
   },
   {
     "ticker": "CEG",
     "name": "Constellation Energy",
     "sector": "Utilities",
-    "industry": "Utilities \u2014 Renewable",
+    "industry": "Utilities - Renewable",
     "marketCap": "$80 Billion",
-    "marketCapNum": 80
+    "marketCapNum": 80,
+    "peRatio": "28.5x",
+    "foundedYear": 1816
   },
   {
     "ticker": "TEAM",
     "name": "Atlassian Corporation",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Application",
+    "industry": "Software - Application",
     "marketCap": "$50 Billion",
-    "marketCapNum": 50
+    "marketCapNum": 50,
+    "peRatio": "52.4x",
+    "foundedYear": 2002
   },
   {
     "ticker": "VRSK",
@@ -509,7 +635,9 @@
     "sector": "Industrials",
     "industry": "Consulting Services",
     "marketCap": "$38 Billion",
-    "marketCapNum": 38
+    "marketCapNum": 38,
+    "peRatio": "41.6x",
+    "foundedYear": 1971
   },
   {
     "ticker": "FANG",
@@ -517,7 +645,9 @@
     "sector": "Energy",
     "industry": "Oil & Gas E&P",
     "marketCap": "$36 Billion",
-    "marketCapNum": 36
+    "marketCapNum": 36,
+    "peRatio": "9.8x",
+    "foundedYear": 2007
   },
   {
     "ticker": "BIIB",
@@ -525,7 +655,9 @@
     "sector": "Healthcare",
     "industry": "Biotechnology",
     "marketCap": "$30 Billion",
-    "marketCapNum": 30
+    "marketCapNum": 30,
+    "peRatio": "13.9x",
+    "foundedYear": 1978
   },
   {
     "ticker": "DLTR",
@@ -533,15 +665,19 @@
     "sector": "Consumer Staples",
     "industry": "Discount Stores",
     "marketCap": "$20 Billion",
-    "marketCapNum": 20
+    "marketCapNum": 20,
+    "peRatio": "17.2x",
+    "foundedYear": 1986
   },
   {
     "ticker": "ZS",
     "name": "Zscaler Inc.",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Infrastructure",
+    "industry": "Software - Infrastructure",
     "marketCap": "$30 Billion",
-    "marketCapNum": 30
+    "marketCapNum": 30,
+    "peRatio": "72.5x",
+    "foundedYear": 2007
   },
   {
     "ticker": "INTC",
@@ -549,7 +685,9 @@
     "sector": "Information Technology",
     "industry": "Semiconductors",
     "marketCap": "$90 Billion",
-    "marketCapNum": 90
+    "marketCapNum": 90,
+    "peRatio": "36.4x",
+    "foundedYear": 1968
   },
   {
     "ticker": "DELL",
@@ -557,7 +695,9 @@
     "sector": "Information Technology",
     "industry": "Computer Hardware",
     "marketCap": "$85 Billion",
-    "marketCapNum": 85
+    "marketCapNum": 85,
+    "peRatio": "21.6x",
+    "foundedYear": 1984
   },
   {
     "ticker": "MCHP",
@@ -565,7 +705,9 @@
     "sector": "Information Technology",
     "industry": "Semiconductors",
     "marketCap": "$42 Billion",
-    "marketCapNum": 42
+    "marketCapNum": 42,
+    "peRatio": "24.3x",
+    "foundedYear": 1989
   },
   {
     "ticker": "EBAY",
@@ -573,7 +715,9 @@
     "sector": "Consumer Discretionary",
     "industry": "Internet Retail",
     "marketCap": "$30 Billion",
-    "marketCapNum": 30
+    "marketCapNum": 30,
+    "peRatio": "14.8x",
+    "foundedYear": 1995
   },
   {
     "ticker": "SIRI",
@@ -581,7 +725,9 @@
     "sector": "Communication Services",
     "industry": "Entertainment",
     "marketCap": "$10 Billion",
-    "marketCapNum": 10
+    "marketCapNum": 10,
+    "peRatio": "11.5x",
+    "foundedYear": 1990
   },
   {
     "ticker": "ENPH",
@@ -589,39 +735,49 @@
     "sector": "Information Technology",
     "industry": "Solar",
     "marketCap": "$15 Billion",
-    "marketCapNum": 15
+    "marketCapNum": 15,
+    "peRatio": "38.2x",
+    "foundedYear": 2006
   },
   {
     "ticker": "DDOG",
     "name": "Datadog Inc.",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Application",
+    "industry": "Software - Application",
     "marketCap": "$40 Billion",
-    "marketCapNum": 40
+    "marketCapNum": 40,
+    "peRatio": "78.4x",
+    "foundedYear": 2010
   },
   {
     "ticker": "ZM",
     "name": "Zoom Video Communications",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Application",
+    "industry": "Software - Application",
     "marketCap": "$22 Billion",
-    "marketCapNum": 22
+    "marketCapNum": 22,
+    "peRatio": "22.3x",
+    "foundedYear": 2011
   },
   {
     "ticker": "DOCU",
     "name": "DocuSign Inc.",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Application",
+    "industry": "Software - Application",
     "marketCap": "$14 Billion",
-    "marketCapNum": 14
+    "marketCapNum": 14,
+    "peRatio": "29.8x",
+    "foundedYear": 2003
   },
   {
     "ticker": "OKTA",
     "name": "Okta Inc.",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Infrastructure",
+    "industry": "Software - Infrastructure",
     "marketCap": "$15 Billion",
-    "marketCapNum": 15
+    "marketCapNum": 15,
+    "peRatio": "44.2x",
+    "foundedYear": 2009
   },
   {
     "ticker": "COIN",
@@ -629,7 +785,9 @@
     "sector": "Financials",
     "industry": "Financial Data & Exchanges",
     "marketCap": "$55 Billion",
-    "marketCapNum": 55
+    "marketCapNum": 55,
+    "peRatio": "39.5x",
+    "foundedYear": 2012
   },
   {
     "ticker": "RIVN",
@@ -637,7 +795,9 @@
     "sector": "Consumer Discretionary",
     "industry": "Auto Manufacturers",
     "marketCap": "$12 Billion",
-    "marketCapNum": 12
+    "marketCapNum": 12,
+    "peRatio": "N/A (Growth)",
+    "foundedYear": 2009
   },
   {
     "ticker": "LCID",
@@ -645,15 +805,19 @@
     "sector": "Consumer Discretionary",
     "industry": "Auto Manufacturers",
     "marketCap": "$6 Billion",
-    "marketCapNum": 6
+    "marketCapNum": 6,
+    "peRatio": "N/A (Growth)",
+    "foundedYear": 2007
   },
   {
     "ticker": "PLTR",
     "name": "Palantir Technologies",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Infrastructure",
+    "industry": "Software - Infrastructure",
     "marketCap": "$95 Billion",
-    "marketCapNum": 95
+    "marketCapNum": 95,
+    "peRatio": "112.5x",
+    "foundedYear": 2003
   },
   {
     "ticker": "ARM",
@@ -661,7 +825,9 @@
     "sector": "Information Technology",
     "industry": "Semiconductors",
     "marketCap": "$140 Billion",
-    "marketCapNum": 140
+    "marketCapNum": 140,
+    "peRatio": "94.2x",
+    "foundedYear": 1990
   },
   {
     "ticker": "SMCI",
@@ -669,23 +835,29 @@
     "sector": "Information Technology",
     "industry": "Computer Hardware",
     "marketCap": "$30 Billion",
-    "marketCapNum": 30
+    "marketCapNum": 30,
+    "peRatio": "19.4x",
+    "foundedYear": 1993
   },
   {
     "ticker": "MDB",
     "name": "MongoDB Inc.",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Infrastructure",
+    "industry": "Software - Infrastructure",
     "marketCap": "$22 Billion",
-    "marketCapNum": 22
+    "marketCapNum": 22,
+    "peRatio": "65.3x",
+    "foundedYear": 2007
   },
   {
     "ticker": "NET",
     "name": "Cloudflare Inc.",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Infrastructure",
+    "industry": "Software - Infrastructure",
     "marketCap": "$32 Billion",
-    "marketCapNum": 32
+    "marketCapNum": 32,
+    "peRatio": "92.1x",
+    "foundedYear": 2009
   },
   {
     "ticker": "DASH",
@@ -693,15 +865,19 @@
     "sector": "Consumer Discretionary",
     "industry": "Internet Retail",
     "marketCap": "$60 Billion",
-    "marketCapNum": 60
+    "marketCapNum": 60,
+    "peRatio": "68.2x",
+    "foundedYear": 2013
   },
   {
     "ticker": "SHOP",
     "name": "Shopify Inc.",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Application",
+    "industry": "Software - Application",
     "marketCap": "$100 Billion",
-    "marketCapNum": 100
+    "marketCapNum": 100,
+    "peRatio": "76.5x",
+    "foundedYear": 2006
   },
   {
     "ticker": "SPOT",
@@ -709,15 +885,19 @@
     "sector": "Communication Services",
     "industry": "Entertainment",
     "marketCap": "$70 Billion",
-    "marketCapNum": 70
+    "marketCapNum": 70,
+    "peRatio": "54.3x",
+    "foundedYear": 2006
   },
   {
     "ticker": "UBER",
     "name": "Uber Technologies Inc.",
     "sector": "Industrials",
-    "industry": "Software \u2014 Infrastructure",
+    "industry": "Software - Infrastructure",
     "marketCap": "$150 Billion",
-    "marketCapNum": 150
+    "marketCapNum": 150,
+    "peRatio": "37.8x",
+    "foundedYear": 2009
   },
   {
     "ticker": "MRVL",
@@ -725,15 +905,19 @@
     "sector": "Information Technology",
     "industry": "Semiconductors",
     "marketCap": "$75 Billion",
-    "marketCapNum": 75
+    "marketCapNum": 75,
+    "peRatio": "46.2x",
+    "foundedYear": 1995
   },
   {
     "ticker": "SNOW",
     "name": "Snowflake Inc.",
     "sector": "Information Technology",
-    "industry": "Software \u2014 Infrastructure",
+    "industry": "Software - Infrastructure",
     "marketCap": "$45 Billion",
-    "marketCapNum": 45
+    "marketCapNum": 45,
+    "peRatio": "N/A (Growth)",
+    "foundedYear": 2012
   },
   {
     "ticker": "RBLX",
@@ -741,7 +925,9 @@
     "sector": "Communication Services",
     "industry": "Electronic Gaming",
     "marketCap": "$28 Billion",
-    "marketCapNum": 28
+    "marketCapNum": 28,
+    "peRatio": "N/A (Growth)",
+    "foundedYear": 2004
   },
   {
     "ticker": "HOOD",
@@ -749,7 +935,9 @@
     "sector": "Financials",
     "industry": "Capital Markets",
     "marketCap": "$25 Billion",
-    "marketCapNum": 25
+    "marketCapNum": 25,
+    "peRatio": "42.1x",
+    "foundedYear": 2013
   },
   {
     "ticker": "TTWO",
@@ -757,7 +945,9 @@
     "sector": "Communication Services",
     "industry": "Electronic Gaming",
     "marketCap": "$28 Billion",
-    "marketCapNum": 28
+    "marketCapNum": 28,
+    "peRatio": "31.4x",
+    "foundedYear": 1993
   },
   {
     "ticker": "ODFL",
@@ -765,7 +955,9 @@
     "sector": "Industrials",
     "industry": "Trucking",
     "marketCap": "$44 Billion",
-    "marketCapNum": 44
+    "marketCapNum": 44,
+    "peRatio": "33.6x",
+    "foundedYear": 1934
   },
   {
     "ticker": "ON",
@@ -773,7 +965,9 @@
     "sector": "Information Technology",
     "industry": "Semiconductors",
     "marketCap": "$32 Billion",
-    "marketCapNum": 32
+    "marketCapNum": 32,
+    "peRatio": "17.5x",
+    "foundedYear": 1999
   },
   {
     "ticker": "BKR",
@@ -781,7 +975,9 @@
     "sector": "Energy",
     "industry": "Oil & Gas Equipment & Services",
     "marketCap": "$42 Billion",
-    "marketCapNum": 42
+    "marketCapNum": 42,
+    "peRatio": "19.8x",
+    "foundedYear": 1907
   },
   {
     "ticker": "DIS",
@@ -789,7 +985,9 @@
     "sector": "Communication Services",
     "industry": "Entertainment",
     "marketCap": "$180 Billion",
-    "marketCapNum": 180
+    "marketCapNum": 180,
+    "peRatio": "36.2x",
+    "foundedYear": 1923
   },
   {
     "ticker": "NKE",
@@ -797,6 +995,8 @@
     "sector": "Consumer Discretionary",
     "industry": "Footwear & Accessories",
     "marketCap": "$125 Billion",
-    "marketCapNum": 125
+    "marketCapNum": 125,
+    "peRatio": "24.5x",
+    "foundedYear": 1964
   }
 ]

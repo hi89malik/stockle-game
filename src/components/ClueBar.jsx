@@ -1,17 +1,17 @@
 import React from 'react';
-import { Calendar, Building2, Coins, ArrowRightLeft, TrendingUp, Lock, CheckCircle2 } from 'lucide-react';
+import { Calendar, Building2, Coins, History, TrendingUp, Lock, CheckCircle2 } from 'lucide-react';
 
 export default function ClueBar({ stock, wrongGuesses = 0, isGameOver = false }) {
   const clues = [
     {
       num: 1,
-      title: 'Chart Range',
+      title: 'Range & X-Axis',
       icon: Calendar,
       unlocked: wrongGuesses >= 1 || isGameOver,
-      content: stock?.dateRangeYears || '2023 – 2025',
+      content: stock?.dateRangeYears || '2023 - 2025',
       sub: stock?.yearSpan
-        ? `${stock.yearSpan} Year${stock.yearSpan > 1 ? 's' : ''} • ${stock.pointCount} weeks`
-        : stock?.pointCount ? `${stock.pointCount} weeks` : '1–5 Year Span',
+        ? `${stock.yearSpan} Year${stock.yearSpan > 1 ? 's' : ''} • Dates on chart`
+        : 'Dates on chart',
       color: 'amber',
     },
     {
@@ -34,11 +34,11 @@ export default function ClueBar({ stock, wrongGuesses = 0, isGameOver = false })
     },
     {
       num: 4,
-      title: 'X-Axis Labels',
-      icon: ArrowRightLeft,
+      title: 'P/E & History',
+      icon: History,
       unlocked: wrongGuesses >= 4 || isGameOver,
-      content: 'Timeline Active',
-      sub: 'Years & months labeled on chart',
+      content: stock?.peRatio ? `P/E: ${stock.peRatio}` : 'P/E: N/A',
+      sub: stock?.foundedYear ? `Founded: ${stock.foundedYear}` : 'Valuation & heritage',
       color: 'cyan',
     },
     {

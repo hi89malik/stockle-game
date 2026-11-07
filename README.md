@@ -19,10 +19,10 @@ You are presented with a **mystery stock chart**. You have **6 guesses** to name
 | Stage | Clue Revealed | Description |
 |---|---|---|
 | **Start (0 wrong)** | **Concealed Chart** | Clean price curve posted with **no numbers, no dates, and no prices** across a **random 1 to 5 year span**. |
-| **Guess 1 Wrong** | **Chart Range (Years)** | Reveals the start and end years (e.g. `2023 - 2025` or `2024 (1 Year)`). |
+| **Guess 1 Wrong** | **Chart Range & X-Axis** | Reveals start and end years (e.g. `2023 - 2025`) and timeline dates across the bottom axis. |
 | **Guess 2 Wrong** | **Sector & Industry** | Reveals the company's sector & industry (e.g. `Technology / Semiconductors`). |
 | **Guess 3 Wrong** | **Market Capitalization** | Reveals the company's market cap (e.g. `~$3.35 Trillion Mega-Cap`). |
-| **Guess 4 Wrong** | **X-Axis (Dates)** | Ticks and dates appear across the bottom timeline axis. |
+| **Guess 4 Wrong** | **P/E Ratio & Founded Year** | Reveals valuation multiple (e.g. `34.2x`) and company founding year (e.g. `1976`). |
 | **Guess 5 Wrong** | **Y-Axis (Price Scale)** | Dollar price values appear along the vertical axis. |
 | **Final Guess Wrong** | **The Answer** | Full company identity, key return statistics, and interactive chart crosshairs are unveiled! |
 

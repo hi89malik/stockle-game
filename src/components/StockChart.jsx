@@ -11,10 +11,10 @@ export default function StockChart({
   const [chartType, setChartType] = useState('area'); // 'area' or 'line'
   const svgRef = useRef(null);
 
-  // Clues 4 and 5 condition:
-  // Fourth guess wrong -> X axis revealed (wrongGuesses >= 4 or isGameOver)
-  // Fifth guess wrong -> Y axis revealed (wrongGuesses >= 5 or isGameOver)
-  const showXAxis = wrongGuesses >= 4 || isGameOver;
+  // Clue conditions:
+  // Guess 1 wrong -> Chart Range & X axis revealed (wrongGuesses >= 1 or isGameOver)
+  // Guess 5 wrong -> Y axis revealed (wrongGuesses >= 5 or isGameOver)
+  const showXAxis = wrongGuesses >= 1 || isGameOver;
   const showYAxis = wrongGuesses >= 5 || isGameOver;
   const isInteractive = isGameOver; // interactive tooltip enabled once game is completed
 
@@ -199,7 +199,7 @@ export default function StockChart({
           <span className="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700/60 font-mono">
             {wrongGuesses >= 1 || isGameOver
               ? `${stock?.yearSpan ? `${stock.yearSpan}Y • ` : ''}${points.length} weekly bars`
-              : 'Random 1–5 Year Range'}
+              : 'Random 1-5 Year Range'}
           </span>
         </div>
 
@@ -212,7 +212,7 @@ export default function StockChart({
                 ? 'bg-cyan-500/10 text-cyan-400 border border-cyan-500/30'
                 : 'bg-slate-800/60 text-slate-500 border border-slate-800'
             }`}
-            title={showXAxis ? 'X-Axis Unlocked (Dates shown)' : 'X-Axis Locked (Unlocked after Guess 4)'}
+            title={showXAxis ? 'X-Axis Unlocked (Dates shown)' : 'X-Axis Locked (Unlocked after Guess 1)'}
           >
             <Calendar className="w-3 h-3" />
             <span className="font-mono text-[11px]">X-Axis {showXAxis ? 'Revealed' : 'Locked'}</span>
@@ -254,14 +254,14 @@ export default function StockChart({
           <defs>
             {/* Smooth linear gradient for area fill */}
             <linearGradient id="stockGradient" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor={strokeColor} stopOpacity="0.35" />
-              <stop offset="60%" stopColor={strokeColor} stopOpacity="0.08" />
+              <stop offset="0%" stopColor={strokeColor} stopOpacity="0.18" />
+              <stop offset="60%" stopColor={strokeColor} stopOpacity="0.04" />
               <stop offset="100%" stopColor={strokeColor} stopOpacity="0.0" />
             </linearGradient>
 
             {/* Glowing filter */}
             <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-              <feGaussianBlur stdDeviation="3" result="blur" />
+              <feGaussianBlur stdDeviation="1.2" result="blur" />
               <feComposite in="SourceGraphic" in2="blur" operator="over" />
             </filter>
           </defs>
@@ -424,7 +424,7 @@ export default function StockChart({
         {/* Floating Tooltip during post-game hover */}
         {activePoint && (
           <div
-            className="absolute z-30 pointer-events-none transform -translate-x-1/2 -translate-y-full mb-3 px-3 py-1.5 rounded-lg bg-slate-900/95 border border-cyan-500/40 shadow-xl shadow-cyan-950/50 backdrop-blur-md"
+            className="absolute z-30 pointer-events-none transform -translate-x-1/2 -translate-y-full mb-3 px-3 py-1.5 rounded-lg bg-slate-900/95 border border-cyan-500/40 shadow-lg shadow-slate-950/40 backdrop-blur-md"
             style={{
               left: `${(activePoint.x / 800) * 100}%`,
               top: `${(activePoint.y / 380) * 100}%`,
@@ -441,9 +441,9 @@ export default function StockChart({
 
         {/* Lock Overlay Banner when numbers are hidden */}
         {!showXAxis && !showYAxis && (
-          <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900/80 border border-slate-700/60 text-slate-400 text-xs shadow-lg backdrop-blur-md">
+          <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900/80 border border-slate-700/60 text-slate-400 text-xs shadow-md backdrop-blur-md">
             <EyeOff className="w-3.5 h-3.5 text-slate-400" />
-            <span>Chart values concealed — Guess to reveal clues</span>
+            <span>Chart values concealed - Guess to reveal clues</span>
           </div>
         )}
       </div>
@@ -456,7 +456,7 @@ export default function StockChart({
             <span className={`font-mono font-medium ${wrongGuesses >= 1 || isGameOver ? 'text-amber-400' : 'text-slate-500'}`}>
               {wrongGuesses >= 1 || isGameOver
                 ? `${stock?.dateRangeYears}${stock?.yearSpan ? ` (${stock.yearSpan} ${stock.yearSpan === 1 ? 'Year' : 'Years'})` : ''}`
-                : '•••• – •••• (Locked)'}
+                : '•••• - •••• (Locked)'}
             </span>
           </div>
           {isGameOver && (
@@ -470,7 +470,7 @@ export default function StockChart({
         </div>
 
         <div className="text-[11px] text-slate-500">
-          {isInteractive ? 'Hover chart to inspect historical prices' : 'Axes unlock with guesses #4 & #5'}
+          {isInteractive ? 'Hover chart to inspect historical prices' : 'Axes and clues unlock with wrong guesses'}
         </div>
       </div>
     </div>

@@ -144,7 +144,7 @@ export default function GameOverModal({
           </p>
 
           {/* Key Stats Grid */}
-          <div className="grid grid-cols-3 gap-2 pt-2 text-center text-xs">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-2 text-center text-xs">
             <div className="p-2 rounded-lg bg-slate-900 border border-slate-800">
               <span className="text-[10px] text-slate-500 block uppercase">Chart Span</span>
               <span className="font-mono font-semibold text-slate-200">
@@ -162,9 +162,15 @@ export default function GameOverModal({
               </span>
             </div>
             <div className="p-2 rounded-lg bg-slate-900 border border-slate-800">
-              <span className="text-[10px] text-slate-500 block uppercase">High Price</span>
-              <span className="font-mono font-semibold text-emerald-300">
-                ${targetStock.maxPrice?.toFixed(2)}
+              <span className="text-[10px] text-slate-500 block uppercase">P/E Ratio</span>
+              <span className="font-mono font-semibold text-cyan-300">
+                {targetStock.peRatio || 'N/A'}
+              </span>
+            </div>
+            <div className="p-2 rounded-lg bg-slate-900 border border-slate-800">
+              <span className="text-[10px] text-slate-500 block uppercase">Founded</span>
+              <span className="font-mono font-semibold text-amber-300">
+                {targetStock.foundedYear || 'N/A'}
               </span>
             </div>
           </div>
@@ -175,7 +181,7 @@ export default function GameOverModal({
           {/* Share Score Button */}
           <button
             onClick={handleShare}
-            className="w-full py-3 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-emerald-950/40 transition-all cursor-pointer"
+            className="w-full py-3 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-md shadow-emerald-950/30 transition-all cursor-pointer"
           >
             {copied ? (
               <>
@@ -217,7 +223,7 @@ export default function GameOverModal({
               className="w-full py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-100 font-bold text-sm flex items-center justify-center gap-2 border border-slate-700 transition-all cursor-pointer"
             >
               <RotateCcw className="w-4 h-4 text-cyan-400" />
-              <span>Play Next Stock 🎲</span>
+              <span>Play Next Stock</span>
             </button>
           )}
 

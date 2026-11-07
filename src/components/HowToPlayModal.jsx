@@ -1,5 +1,5 @@
 import React from 'react';
-import { HelpCircle, X, Calendar, Building2, Coins, ArrowRightLeft, TrendingUp, Sparkles, Check, ArrowUp } from 'lucide-react';
+import { HelpCircle, X, Calendar, Building2, Coins, History, TrendingUp, Sparkles, Check, ArrowUp } from 'lucide-react';
 
 export default function HowToPlayModal({ isOpen, onClose }) {
   if (!isOpen) return null;
@@ -48,9 +48,9 @@ export default function HowToPlayModal({ isOpen, onClose }) {
               </div>
               <div>
                 <span className="font-semibold text-amber-300 flex items-center gap-1">
-                  <Calendar className="w-3 h-3" /> Clue #1: Chart Date Range
+                  <Calendar className="w-3 h-3" /> Clue #1: Chart Range & X-Axis
                 </span>
-                <p className="text-slate-400 text-[11px]">Reveals the start and end years (e.g. 2022 – 2024, randomly spanning 1 to 5 years).</p>
+                <p className="text-slate-400 text-[11px]">Reveals start and end years (e.g. 2022 - 2024) and unlocks the timeline dates across the bottom axis.</p>
               </div>
             </div>
 
@@ -87,9 +87,9 @@ export default function HowToPlayModal({ isOpen, onClose }) {
               </div>
               <div>
                 <span className="font-semibold text-cyan-300 flex items-center gap-1">
-                  <ArrowRightLeft className="w-3 h-3" /> Clue #4: Chart X-Axis
+                  <History className="w-3 h-3" /> Clue #4: P/E Ratio & Founded Year
                 </span>
-                <p className="text-slate-400 text-[11px]">Timeline months and years are displayed across the bottom axis.</p>
+                <p className="text-slate-400 text-[11px]">Reveals price-to-earnings valuation multiple and company founding year.</p>
               </div>
             </div>
 

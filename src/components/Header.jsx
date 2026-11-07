@@ -20,7 +20,7 @@ export default function Header({
       <div className="max-w-4xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-3">
         {/* Left: Brand / Logo */}
         <div className="flex items-center gap-2.5">
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center text-slate-950 shadow-lg shadow-emerald-950/50">
+          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center text-slate-950 shadow-md shadow-emerald-950/30">
             <TrendingUp className="w-5 h-5 stroke-[2.5]" />
           </div>
           <div>
@@ -77,7 +77,7 @@ export default function Header({
               className="bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-700/80 rounded-lg px-2 py-1.5 text-xs font-mono focus:outline-none cursor-pointer"
               title="Practice Year Range (Min 1Y, Max 5Y)"
             >
-              <option value="random">🎲 Random (1–5Y)</option>
+              <option value="random">Random (1-5Y)</option>
               <option value="1">1 Year Span</option>
               <option value="2">2 Year Span</option>
               <option value="3">3 Year Span</option>

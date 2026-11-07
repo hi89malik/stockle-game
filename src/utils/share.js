@@ -3,8 +3,8 @@
 export function generateShareText({ puzzleNumber, isWon, guesses, targetStock, isDaily }) {
   const spanLabel = targetStock?.yearSpan ? ` (${targetStock.yearSpan}Y)` : '';
   const header = isDaily 
-    ? `📈 Stockle #${puzzleNumber}${spanLabel} ${isWon ? guesses.length : 'X'}/6`
-    : `📈 Stockle (Practice)${spanLabel} ${isWon ? guesses.length : 'X'}/6`;
+    ? `Stockle #${puzzleNumber}${spanLabel} ${isWon ? guesses.length : 'X'}/6`
+    : `Stockle (Practice)${spanLabel} ${isWon ? guesses.length : 'X'}/6`;
 
   const rows = guesses.map((g) => {
     const isCorrect = g.ticker === targetStock.ticker;
@@ -31,7 +31,7 @@ export function generateShareText({ puzzleNumber, isWon, guesses, targetStock, i
     return `🟥 ${sectorEmoji} ${capEmoji} ⬛`;
   });
 
-  return `${header}\n\n${rows.join('\n')}\n\nCan you guess the stock from its chart? 🚀`;
+  return `${header}\n\n${rows.join('\n')}\n\nCan you guess the stock from its chart?`;
 }
 
 export async function copyToClipboard(text) {
