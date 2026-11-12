@@ -178,6 +178,34 @@ export default function App() {
     [isGameOver, currentStock, guesses, gameMode]
   );
 
+  // Handle Skip Guess (consumes 1 guess, unlocks next clue, disabled on final guess)
+  const handleSkip = useCallback(() => {
+    if (isGameOver || !currentStock || guesses.length >= MAX_GUESSES - 1) return;
+
+    const skipGuess = {
+      isSkipped: true,
+      ticker: 'SKIPPED',
+      name: 'Skipped Guess',
+    };
+
+    const newGuesses = [...guesses, skipGuess];
+    setGuesses(newGuesses);
+
+    // Play clue unlock chime
+    sound.playClueUnlock();
+
+    if (gameMode === 'daily') {
+      saveDailyState(getTodayDateString(), {
+        targetTicker: currentStock.ticker,
+        yearSpan: currentStock.yearSpan,
+        sliceStartIndex: currentStock.sliceStartIndex,
+        guesses: newGuesses,
+        isGameOver: false,
+        isWon: false,
+      });
+    }
+  }, [isGameOver, currentStock, guesses, gameMode]);
+
   // Handle Give Up / Concede
   const handleGiveUp = useCallback(() => {
     if (isGameOver || !currentStock) return;
@@ -266,6 +294,7 @@ export default function App() {
             stockList={stocksMetaData}
             previousGuesses={guesses}
             onGuess={handleGuess}
+            onSkip={handleSkip}
             onGiveUp={handleGiveUp}
             isGameOver={isGameOver}
             maxGuesses={MAX_GUESSES}

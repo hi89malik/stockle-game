@@ -1,10 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Search, Send, AlertCircle, Flag } from 'lucide-react';
+import { Search, Send, AlertCircle, Flag, SkipForward } from 'lucide-react';
 
 export default function GuessInput({
   stockList = [],
   previousGuesses = [],
   onGuess,
+  onSkip,
   onGiveUp,
   isGameOver = false,
   maxGuesses = 6,
@@ -17,6 +18,16 @@ export default function GuessInput({
   const dropdownRef = useRef(null);
 
   const remainingGuesses = maxGuesses - previousGuesses.length;
+  const isFinalGuess = previousGuesses.length >= maxGuesses - 1;
+  const canSkip = !isGameOver && !isFinalGuess;
+
+  const handleSkipClick = () => {
+    if (!canSkip || !onSkip) return;
+    setQuery('');
+    setIsOpen(false);
+    setErrorMsg('');
+    onSkip();
+  };
 
   // Filter stocks based on search query
   const filteredStocks = React.useMemo(() => {
@@ -114,6 +125,11 @@ export default function GuessInput({
       <div className="flex items-center justify-between text-xs text-slate-400 mb-1.5 px-1">
         <span className="font-semibold uppercase tracking-wider">
           Guess {Math.min(previousGuesses.length + 1, maxGuesses)} of {maxGuesses}
+          {isFinalGuess && !isGameOver && (
+            <span className="ml-2 text-rose-400 font-mono text-[11px] font-normal normal-case">
+              (Final Guess)
+            </span>
+          )}
         </span>
         <span className="text-slate-500 font-mono">
           {remainingGuesses} {remainingGuesses === 1 ? 'guess' : 'guesses'} left
@@ -122,7 +138,7 @@ export default function GuessInput({
 
       {/* Input container */}
       <div className="relative flex items-center gap-2">
-        <div className="relative flex-1">
+        <div className="relative flex-1 min-w-0">
           <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-500">
             <Search className="w-4 h-4" />
           </div>
@@ -153,6 +169,28 @@ export default function GuessInput({
             }`}
           />
         </div>
+
+        {/* Skip Guess Button */}
+        {!isGameOver && (
+          <button
+            type="button"
+            onClick={handleSkipClick}
+            disabled={!canSkip}
+            className={`px-3.5 py-3 rounded-xl border text-xs font-semibold flex items-center gap-1.5 transition-all select-none whitespace-nowrap ${
+              canSkip
+                ? 'bg-slate-800/90 hover:bg-slate-700 active:bg-slate-800 text-slate-200 border-slate-700 hover:border-slate-600 cursor-pointer shadow-sm'
+                : 'bg-slate-900/60 border-slate-800/80 text-slate-600 cursor-not-allowed opacity-60'
+            }`}
+            title={
+              isFinalGuess
+                ? 'Cannot skip on the final guess'
+                : `Skip this guess to unlock Clue #${previousGuesses.length + 1} (consumes 1 guess)`
+            }
+          >
+            <SkipForward className={`w-3.5 h-3.5 ${canSkip ? 'text-amber-400' : 'text-slate-600'}`} />
+            <span>Skip</span>
+          </button>
+        )}
 
         {/* Submit Guess Button */}
         <button

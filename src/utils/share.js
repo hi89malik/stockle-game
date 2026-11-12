@@ -12,6 +12,10 @@ export function generateShareText({ puzzleNumber, isWon, guesses, targetStock, i
       return '🟩🟩🟩🟩🟩';
     }
 
+    if (g.isSkipped) {
+      return '⬛⬛⬛⬛⬛';
+    }
+
     // Clue emojis:
     // Sector match: 🟩 if match, ⬛ if not
     const sectorEmoji = g.sector === targetStock.sector ? '🟩' : '⬛';

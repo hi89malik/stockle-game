@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check, X, ArrowUp, ArrowDown, CheckCircle2, HelpCircle } from 'lucide-react';
+import { Check, X, ArrowUp, ArrowDown, CheckCircle2, HelpCircle, SkipForward } from 'lucide-react';
 
 export default function GuessHistory({ guesses = [], targetStock, maxGuesses = 6 }) {
   const rows = [];
@@ -35,6 +35,34 @@ export default function GuessHistory({ guesses = [], targetStock, maxGuesses = 6
                 </div>
                 <div className="text-[11px] text-slate-700">
                   {guessNumber === 6 ? 'Final Guess (Game Over)' : `Unlocks Clue #${guessNumber}`}
+                </div>
+              </div>
+            );
+          }
+
+          if (guess.isSkipped) {
+            return (
+              <div
+                key={`guess-${idx}`}
+                className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-2 px-4 py-3 rounded-xl border border-slate-800 bg-slate-900/50 text-slate-400 transition-all duration-300"
+              >
+                <div className="flex items-center gap-3">
+                  <div className="w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold font-mono bg-amber-500/10 text-amber-400 border border-amber-500/30">
+                    <SkipForward className="w-3.5 h-3.5" />
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <span className="font-mono font-bold text-xs uppercase px-2 py-0.5 rounded bg-slate-800 text-amber-300 border border-slate-700">
+                      Skipped
+                    </span>
+                    <span className="text-xs text-slate-300">
+                      Turn used to reveal Clue #{guessNumber}
+                    </span>
+                  </div>
+                </div>
+
+                <div className="text-[11px] text-slate-500 font-mono">
+                  No company guessed
                 </div>
               </div>
             );

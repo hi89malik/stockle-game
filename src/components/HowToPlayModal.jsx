@@ -1,5 +1,5 @@
 import React from 'react';
-import { HelpCircle, X, Calendar, Building2, Coins, History, TrendingUp, Sparkles, Check, ArrowUp } from 'lucide-react';
+import { HelpCircle, X, Calendar, Building2, Coins, History, TrendingUp, Sparkles, Check, ArrowUp, SkipForward } from 'lucide-react';
 
 export default function HowToPlayModal({ isOpen, onClose }) {
   if (!isOpen) return null;
@@ -135,6 +135,12 @@ export default function HowToPlayModal({ isOpen, onClose }) {
               <ArrowUp className="w-3 h-3" /> Higher
             </span>
             <span className="text-slate-300">Target stock has a larger market capitalization</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="px-2 py-0.5 rounded bg-slate-800 text-amber-300 border border-slate-700 font-mono font-semibold flex items-center gap-1">
+              <SkipForward className="w-3 h-3 text-amber-400" /> Skip
+            </span>
+            <span className="text-slate-300">Consume 1 guess to unlock the next clue (disabled on final guess)</span>
           </div>
         </div>
 

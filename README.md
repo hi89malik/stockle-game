@@ -26,10 +26,11 @@ You are presented with a **mystery stock chart**. You have **6 guesses** to name
 | **Guess 5 Wrong** | **Y-Axis (Price Scale)** | Dollar price values appear along the vertical axis. |
 | **Final Guess Wrong** | **The Answer** | Full company identity, key return statistics, and interactive chart crosshairs are unveiled! |
 
-### Guess Feedback (Wordle-Style)
+### Guess Feedback & Controls
 On each guess, you receive strategic comparison indicators:
 - **Sector Match**: Green pill indicates the guessed stock shares the exact sector as the target.
 - **Market Cap Indicator**: Arrow indicates whether the secret company has a larger or smaller market cap than what you guessed.
+- **Skip Guess**: Click the Skip button to unlock the next clue without submitting a company guess. This consumes 1 of your 6 available guesses. Skipping is disabled on the final guess.
 
 ---
 
