@@ -1,11 +1,12 @@
 import React from 'react';
-import { TrendingUp, HelpCircle, BarChart3, Volume2, VolumeX, Calendar, Shuffle, Sparkles } from 'lucide-react';
+import { TrendingUp, HelpCircle, BarChart3, Volume2, VolumeX, Calendar, Shuffle, Sparkles, Building2 } from 'lucide-react';
 import { getPuzzleNumber } from '../utils/gameStorage';
 
 export default function Header({
   gameMode = 'daily', // 'daily' or 'unlimited'
   onSelectMode,
   onOpenHowToPlay,
+  onOpenReference,
   onOpenStats,
   isMuted,
   onToggleSound,
@@ -105,6 +106,15 @@ export default function Header({
             title="How to Play"
           >
             <HelpCircle className="w-4 h-4" />
+          </button>
+
+          {/* Company reference list button */}
+          <button
+            onClick={onOpenReference}
+            className="p-2 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-cyan-400 border border-slate-800 transition cursor-pointer"
+            title="Nasdaq Company Reference List"
+          >
+            <Building2 className="w-4 h-4" />
           </button>
 
           {/* Stats button */}

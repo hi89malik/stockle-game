@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Search, Send, AlertCircle, Flag, SkipForward } from 'lucide-react';
+import { Search, Send, AlertCircle, Flag, SkipForward, Building2 } from 'lucide-react';
 
 export default function GuessInput({
   stockList = [],
@@ -7,6 +7,7 @@ export default function GuessInput({
   onGuess,
   onSkip,
   onGiveUp,
+  onOpenReference,
   isGameOver = false,
   maxGuesses = 6,
 }) {
@@ -121,7 +122,7 @@ export default function GuessInput({
 
   return (
     <div className="w-full relative">
-      {/* Guesses status indicator */}
+      {/* Guesses status indicator & Reference list link */}
       <div className="flex items-center justify-between text-xs text-slate-400 mb-1.5 px-1">
         <span className="font-semibold uppercase tracking-wider">
           Guess {Math.min(previousGuesses.length + 1, maxGuesses)} of {maxGuesses}
@@ -131,9 +132,22 @@ export default function GuessInput({
             </span>
           )}
         </span>
-        <span className="text-slate-500 font-mono">
-          {remainingGuesses} {remainingGuesses === 1 ? 'guess' : 'guesses'} left
-        </span>
+        <div className="flex items-center gap-3">
+          {onOpenReference && (
+            <button
+              type="button"
+              onClick={onOpenReference}
+              className="text-[11px] text-cyan-400 hover:text-cyan-300 transition flex items-center gap-1 cursor-pointer font-medium"
+              title="View all 100 Nasdaq companies sorted by weight"
+            >
+              <Building2 className="w-3 h-3" />
+              <span>Company List</span>
+            </button>
+          )}
+          <span className="text-slate-500 font-mono">
+            {remainingGuesses} {remainingGuesses === 1 ? 'guess' : 'guesses'} left
+          </span>
+        </div>
       </div>
 
       {/* Input container */}

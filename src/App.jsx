@@ -7,6 +7,7 @@ import GuessHistory from './components/GuessHistory';
 import GameOverModal from './components/GameOverModal';
 import StatsModal from './components/StatsModal';
 import HowToPlayModal from './components/HowToPlayModal';
+import CompanyReferenceModal from './components/CompanyReferenceModal';
 
 import stocksData from './data/stocks.json';
 import stocksMetaData from './data/stocksMeta.json';
@@ -38,6 +39,7 @@ export default function App() {
   const [showGameOverModal, setShowGameOverModal] = useState(false);
   const [showStatsModal, setShowStatsModal] = useState(false);
   const [showHowToPlayModal, setShowHowToPlayModal] = useState(false);
+  const [showReferenceModal, setShowReferenceModal] = useState(false);
 
   // Track whether completion modal was already displayed during this session
   const hasShownDailyModalThisSession = useRef(false);
@@ -263,6 +265,7 @@ export default function App() {
         gameMode={gameMode}
         onSelectMode={(mode) => setGameMode(mode)}
         onOpenHowToPlay={() => setShowHowToPlayModal(true)}
+        onOpenReference={() => setShowReferenceModal(true)}
         onOpenStats={() => setShowStatsModal(true)}
         isMuted={isMuted}
         onToggleSound={handleToggleSound}
@@ -296,6 +299,7 @@ export default function App() {
             onGuess={handleGuess}
             onSkip={handleSkip}
             onGiveUp={handleGiveUp}
+            onOpenReference={() => setShowReferenceModal(true)}
             isGameOver={isGameOver}
             maxGuesses={MAX_GUESSES}
           />
@@ -350,6 +354,20 @@ export default function App() {
       <HowToPlayModal
         isOpen={showHowToPlayModal}
         onClose={() => setShowHowToPlayModal(false)}
+        onOpenReference={() => {
+          setShowHowToPlayModal(false);
+          setShowReferenceModal(true);
+        }}
+      />
+
+      <CompanyReferenceModal
+        isOpen={showReferenceModal}
+        onClose={() => setShowReferenceModal(false)}
+        stockList={stocksMetaData}
+        onSelectCompany={(company) => {
+          handleGuess(company);
+        }}
+        isGameOver={isGameOver}
       />
     </div>
   );

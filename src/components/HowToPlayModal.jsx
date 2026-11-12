@@ -1,7 +1,7 @@
 import React from 'react';
 import { HelpCircle, X, Calendar, Building2, Coins, History, TrendingUp, Sparkles, Check, ArrowUp, SkipForward } from 'lucide-react';
 
-export default function HowToPlayModal({ isOpen, onClose }) {
+export default function HowToPlayModal({ isOpen, onClose, onOpenReference }) {
   if (!isOpen) return null;
 
   return (
@@ -147,6 +147,15 @@ export default function HowToPlayModal({ isOpen, onClose }) {
         {/* Universe */}
         <div className="text-xs text-slate-400 mb-5">
           <span className="font-semibold text-slate-300">Stock Universe:</span> Curated from the top 100 largest and most active companies in the Nasdaq and US markets (AAPL, NVDA, MSFT, TSLA, AMZN, META, COST, etc.).
+          {onOpenReference && (
+            <button
+              type="button"
+              onClick={onOpenReference}
+              className="ml-1 text-cyan-400 hover:text-cyan-300 underline font-medium cursor-pointer inline"
+            >
+              View full company reference list
+            </button>
+          )}
         </div>
 
         <button

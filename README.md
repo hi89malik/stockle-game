@@ -86,6 +86,7 @@ This updates `src/data/stocks.json`, `src/data/stocksMeta.json`, and `public/` w
 
 - **Daily Mode**: A single deterministic stock puzzle per day for players worldwide, with streak tracking and midnight countdown timer.
 - **Unlimited / Practice Mode**: Endless random stock challenges with random 1 to 5 year spans to practice pattern recognition.
+- **Nasdaq Company Reference List**: View all 100 universe stocks sorted by index weight from highest to lowest component, with ticker and sector displayed (market caps concealed).
 - **Synthesized Web Audio**: Sound effects generated natively via the Web Audio API (no external MP3 downloads required), with mute persistence.
 - **Wordle-Style Score Sharing**: Copy your game grid to clipboard with one click.
 - **Player Statistics**: Games played, win percentage, streak counter, and guess distribution histogram stored in localStorage.
