@@ -4,9 +4,9 @@
     "name": "Apple Inc.",
     "sector": "Information Technology",
     "industry": "Consumer Electronics",
-    "marketCap": "$5.16 Trillion",
-    "marketCapNum": 5157.2,
-    "peRatio": "39.5x",
+    "marketCap": "$5.18 Trillion",
+    "marketCapNum": 5177.4,
+    "peRatio": "39.7x",
     "foundedYear": 1976
   },
   {
@@ -14,8 +14,8 @@
     "name": "Microsoft Corporation",
     "sector": "Information Technology",
     "industry": "Software - Infrastructure",
-    "marketCap": "$3.88 Trillion",
-    "marketCapNum": 3883.9,
+    "marketCap": "$3.89 Trillion",
+    "marketCapNum": 3890.4,
     "peRatio": "27.3x",
     "foundedYear": 1975
   },
@@ -24,9 +24,9 @@
     "name": "NVIDIA Corporation",
     "sector": "Information Technology",
     "industry": "Semiconductors",
-    "marketCap": "$4.01 Trillion",
-    "marketCapNum": 4013.0,
-    "peRatio": "21.0x",
+    "marketCap": "$3.93 Trillion",
+    "marketCapNum": 3932.3,
+    "peRatio": "20.6x",
     "foundedYear": 1993
   },
   {
@@ -34,9 +34,9 @@
     "name": "Alphabet Inc.",
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
-    "marketCap": "$3.67 Trillion",
-    "marketCapNum": 3672.2,
-    "peRatio": "15.6x",
+    "marketCap": "$3.64 Trillion",
+    "marketCapNum": 3636.2,
+    "peRatio": "15.4x",
     "foundedYear": 1998
   },
   {
@@ -44,8 +44,8 @@
     "name": "Amazon.com Inc.",
     "sector": "Consumer Discretionary",
     "industry": "Internet Retail",
-    "marketCap": "$2.89 Trillion",
-    "marketCapNum": 2891.9,
+    "marketCap": "$2.88 Trillion",
+    "marketCapNum": 2883.4,
     "peRatio": "21.6x",
     "foundedYear": 1994
   },
@@ -54,9 +54,9 @@
     "name": "Meta Platforms Inc.",
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
-    "marketCap": "$1.59 Trillion",
-    "marketCapNum": 1594.5,
-    "peRatio": "21.3x",
+    "marketCap": "$1.64 Trillion",
+    "marketCapNum": 1640.3,
+    "peRatio": "21.9x",
     "foundedYear": 2004
   },
   {
@@ -64,9 +64,9 @@
     "name": "Tesla Inc.",
     "sector": "Consumer Discretionary",
     "industry": "Auto Manufacturers",
-    "marketCap": "$1.57 Trillion",
-    "marketCapNum": 1571.0,
-    "peRatio": "436.8x",
+    "marketCap": "$1.54 Trillion",
+    "marketCapNum": 1542.4,
+    "peRatio": "428.8x",
     "foundedYear": 2003
   },
   {
@@ -74,9 +74,9 @@
     "name": "Broadcom Inc.",
     "sector": "Information Technology",
     "industry": "Semiconductors",
-    "marketCap": "$1.74 Trillion",
-    "marketCapNum": 1739.3,
-    "peRatio": "46.5x",
+    "marketCap": "$1.66 Trillion",
+    "marketCapNum": 1656.5,
+    "peRatio": "44.3x",
     "foundedYear": 1961
   },
   {
@@ -84,9 +84,9 @@
     "name": "Costco Wholesale Corp.",
     "sector": "Consumer Staples",
     "industry": "Discount Stores",
-    "marketCap": "$484.0 Billion",
-    "marketCapNum": 484.0,
-    "peRatio": "52.6x",
+    "marketCap": "$490.2 Billion",
+    "marketCapNum": 490.2,
+    "peRatio": "53.3x",
     "foundedYear": 1983
   },
   {
@@ -94,9 +94,9 @@
     "name": "Netflix Inc.",
     "sector": "Communication Services",
     "industry": "Entertainment",
-    "marketCap": "$257.4 Billion",
-    "marketCapNum": 257.4,
-    "peRatio": "18.1x",
+    "marketCap": "$255.2 Billion",
+    "marketCapNum": 255.2,
+    "peRatio": "18.0x",
     "foundedYear": 1997
   },
   {
@@ -104,9 +104,9 @@
     "name": "Advanced Micro Devices",
     "sector": "Information Technology",
     "industry": "Semiconductors",
-    "marketCap": "$959.9 Billion",
-    "marketCapNum": 959.9,
-    "peRatio": "125.1x",
+    "marketCap": "$875.9 Billion",
+    "marketCapNum": 875.9,
+    "peRatio": "114.1x",
     "foundedYear": 1969
   },
   {
@@ -114,9 +114,9 @@
     "name": "PepsiCo Inc.",
     "sector": "Consumer Staples",
     "industry": "Beverages - Non-Alcoholic",
-    "marketCap": "$193.9 Billion",
-    "marketCapNum": 193.9,
-    "peRatio": "17.9x",
+    "marketCap": "$198.2 Billion",
+    "marketCapNum": 198.2,
+    "peRatio": "18.3x",
     "foundedYear": 1898
   },
   {
@@ -124,9 +124,9 @@
     "name": "Linde plc",
     "sector": "Materials",
     "industry": "Specialty Chemicals",
-    "marketCap": "$239.9 Billion",
-    "marketCapNum": 239.9,
-    "peRatio": "34.7x",
+    "marketCap": "$241.5 Billion",
+    "marketCapNum": 241.5,
+    "peRatio": "34.9x",
     "foundedYear": 1879
   },
   {
@@ -134,9 +134,9 @@
     "name": "Adobe Inc.",
     "sector": "Information Technology",
     "industry": "Software - Infrastructure",
-    "marketCap": "$92.8 Billion",
-    "marketCapNum": 92.8,
-    "peRatio": "13.3x",
+    "marketCap": "$94.6 Billion",
+    "marketCapNum": 94.6,
+    "peRatio": "13.6x",
     "foundedYear": 1982
   },
   {
@@ -144,9 +144,9 @@
     "name": "Cisco Systems Inc.",
     "sector": "Information Technology",
     "industry": "Communication Equipment",
-    "marketCap": "$402.2 Billion",
-    "marketCapNum": 402.2,
-    "peRatio": "27.1x",
+    "marketCap": "$376.5 Billion",
+    "marketCapNum": 376.5,
+    "peRatio": "25.4x",
     "foundedYear": 1984
   },
   {
@@ -154,9 +154,9 @@
     "name": "T-Mobile US Inc.",
     "sector": "Communication Services",
     "industry": "Telecom Services",
-    "marketCap": "$181.2 Billion",
-    "marketCapNum": 181.2,
-    "peRatio": "16.5x",
+    "marketCap": "$180.0 Billion",
+    "marketCapNum": 180.0,
+    "peRatio": "16.4x",
     "foundedYear": 1994
   },
   {
@@ -164,9 +164,9 @@
     "name": "QUALCOMM Inc.",
     "sector": "Information Technology",
     "industry": "Semiconductors",
-    "marketCap": "$189.5 Billion",
-    "marketCapNum": 189.5,
-    "peRatio": "13.9x",
+    "marketCap": "$184.5 Billion",
+    "marketCapNum": 184.5,
+    "peRatio": "13.6x",
     "foundedYear": 1985
   },
   {
@@ -174,9 +174,9 @@
     "name": "Texas Instruments Inc.",
     "sector": "Information Technology",
     "industry": "Semiconductors",
-    "marketCap": "$285.5 Billion",
-    "marketCapNum": 285.5,
-    "peRatio": "40.5x",
+    "marketCap": "$277.4 Billion",
+    "marketCapNum": 277.4,
+    "peRatio": "39.4x",
     "foundedYear": 1930
   },
   {
@@ -184,9 +184,9 @@
     "name": "Amgen Inc.",
     "sector": "Healthcare",
     "industry": "Biotechnology",
-    "marketCap": "$252.6 Billion",
-    "marketCapNum": 252.6,
-    "peRatio": "27.1x",
+    "marketCap": "$251.9 Billion",
+    "marketCapNum": 251.9,
+    "peRatio": "27.0x",
     "foundedYear": 1980
   },
   {
@@ -194,9 +194,9 @@
     "name": "Intuit Inc.",
     "sector": "Information Technology",
     "industry": "Software - Application",
-    "marketCap": "$90.9 Billion",
-    "marketCapNum": 90.9,
-    "peRatio": "20.7x",
+    "marketCap": "$91.3 Billion",
+    "marketCapNum": 91.3,
+    "peRatio": "20.8x",
     "foundedYear": 1983
   },
   {
@@ -204,9 +204,9 @@
     "name": "Intuitive Surgical Inc.",
     "sector": "Healthcare",
     "industry": "Medical Instruments & Supplies",
-    "marketCap": "$152.5 Billion",
-    "marketCapNum": 152.5,
-    "peRatio": "53.2x",
+    "marketCap": "$153.8 Billion",
+    "marketCapNum": 153.8,
+    "peRatio": "53.6x",
     "foundedYear": 1995
   },
   {
@@ -214,9 +214,9 @@
     "name": "Comcast Corporation",
     "sector": "Communication Services",
     "industry": "Entertainment",
-    "marketCap": "$88.1 Billion",
-    "marketCapNum": 88.1,
-    "peRatio": "7.8x",
+    "marketCap": "$89.3 Billion",
+    "marketCapNum": 89.3,
+    "peRatio": "8.0x",
     "foundedYear": 1963
   },
   {
@@ -224,9 +224,9 @@
     "name": "Honeywell International",
     "sector": "Industrials",
     "industry": "Conglomerates",
-    "marketCap": "$70.9 Billion",
-    "marketCapNum": 70.9,
-    "peRatio": "11.1x",
+    "marketCap": "$70.6 Billion",
+    "marketCapNum": 70.6,
+    "peRatio": "11.0x",
     "foundedYear": 1906
   },
   {
@@ -234,9 +234,9 @@
     "name": "Applied Materials Inc.",
     "sector": "Information Technology",
     "industry": "Semiconductor Equipment",
-    "marketCap": "$302.3 Billion",
-    "marketCapNum": 302.3,
-    "peRatio": "30.2x",
+    "marketCap": "$294.0 Billion",
+    "marketCapNum": 294.0,
+    "peRatio": "29.4x",
     "foundedYear": 1967
   },
   {
@@ -244,9 +244,9 @@
     "name": "Booking Holdings Inc.",
     "sector": "Consumer Discretionary",
     "industry": "Travel Services",
-    "marketCap": "$119.9 Billion",
-    "marketCapNum": 119.9,
-    "peRatio": "17.5x",
+    "marketCap": "$118.7 Billion",
+    "marketCapNum": 118.7,
+    "peRatio": "17.3x",
     "foundedYear": 1997
   },
   {
@@ -254,9 +254,9 @@
     "name": "Vertex Pharmaceuticals",
     "sector": "Healthcare",
     "industry": "Biotechnology",
-    "marketCap": "$137.6 Billion",
-    "marketCapNum": 137.6,
-    "peRatio": "34.9x",
+    "marketCap": "$136.6 Billion",
+    "marketCapNum": 136.6,
+    "peRatio": "34.7x",
     "foundedYear": 1989
   },
   {
@@ -264,9 +264,9 @@
     "name": "Starbucks Corporation",
     "sector": "Consumer Discretionary",
     "industry": "Restaurants",
-    "marketCap": "$122.3 Billion",
-    "marketCapNum": 122.3,
-    "peRatio": "48.5x",
+    "marketCap": "$121.4 Billion",
+    "marketCapNum": 121.4,
+    "peRatio": "48.2x",
     "foundedYear": 1971
   },
   {
@@ -274,9 +274,9 @@
     "name": "Palo Alto Networks",
     "sector": "Information Technology",
     "industry": "Software - Infrastructure",
-    "marketCap": "$264.1 Billion",
-    "marketCapNum": 264.1,
-    "peRatio": "806.6x",
+    "marketCap": "$263.8 Billion",
+    "marketCapNum": 263.8,
+    "peRatio": "805.6x",
     "foundedYear": 2005
   },
   {
@@ -284,9 +284,9 @@
     "name": "Mondelez International",
     "sector": "Consumer Staples",
     "industry": "Confectioners",
-    "marketCap": "$84.3 Billion",
-    "marketCapNum": 84.3,
-    "peRatio": "21.0x",
+    "marketCap": "$85.5 Billion",
+    "marketCapNum": 85.5,
+    "peRatio": "21.3x",
     "foundedYear": 2012
   },
   {
@@ -294,9 +294,9 @@
     "name": "Regeneron Pharmaceuticals",
     "sector": "Healthcare",
     "industry": "Biotechnology",
-    "marketCap": "$98.4 Billion",
-    "marketCapNum": 98.4,
-    "peRatio": "21.0x",
+    "marketCap": "$98.8 Billion",
+    "marketCapNum": 98.8,
+    "peRatio": "21.1x",
     "foundedYear": 1988
   },
   {
@@ -304,9 +304,9 @@
     "name": "Automatic Data Processing",
     "sector": "Industrials",
     "industry": "Staffing & Employment Services",
-    "marketCap": "$121.6 Billion",
-    "marketCapNum": 121.6,
-    "peRatio": "27.3x",
+    "marketCap": "$122.3 Billion",
+    "marketCapNum": 122.3,
+    "peRatio": "27.5x",
     "foundedYear": 1949
   },
   {
@@ -314,9 +314,9 @@
     "name": "Lam Research Corporation",
     "sector": "Information Technology",
     "industry": "Semiconductor Equipment",
-    "marketCap": "$292.0 Billion",
-    "marketCapNum": 292.0,
-    "peRatio": "34.8x",
+    "marketCap": "$282.2 Billion",
+    "marketCapNum": 282.2,
+    "peRatio": "33.7x",
     "foundedYear": 1980
   },
   {
@@ -324,9 +324,9 @@
     "name": "Micron Technology Inc.",
     "sector": "Information Technology",
     "industry": "Semiconductors",
-    "marketCap": "$903.4 Billion",
-    "marketCapNum": 903.4,
-    "peRatio": "10.7x",
+    "marketCap": "$880.6 Billion",
+    "marketCapNum": 880.6,
+    "peRatio": "10.5x",
     "foundedYear": 1978
   },
   {
@@ -334,9 +334,9 @@
     "name": "KLA Corporation",
     "sector": "Information Technology",
     "industry": "Semiconductor Equipment",
-    "marketCap": "$205.0 Billion",
-    "marketCapNum": 205.0,
-    "peRatio": "39.4x",
+    "marketCap": "$198.5 Billion",
+    "marketCapNum": 198.5,
+    "peRatio": "38.2x",
     "foundedYear": 1975
   },
   {
@@ -344,8 +344,8 @@
     "name": "Gilead Sciences Inc.",
     "sector": "Healthcare",
     "industry": "Biotechnology",
-    "marketCap": "$208.3 Billion",
-    "marketCapNum": 208.3,
+    "marketCap": "$208.5 Billion",
+    "marketCapNum": 208.5,
     "peRatio": "14.5x",
     "foundedYear": 1987
   },
@@ -354,9 +354,9 @@
     "name": "Synopsys Inc.",
     "sector": "Information Technology",
     "industry": "Software - Infrastructure",
-    "marketCap": "$88.7 Billion",
-    "marketCapNum": 88.7,
-    "peRatio": "81.7x",
+    "marketCap": "$87.2 Billion",
+    "marketCapNum": 87.2,
+    "peRatio": "80.4x",
     "foundedYear": 1986
   },
   {
@@ -364,9 +364,9 @@
     "name": "Cadence Design Systems",
     "sector": "Information Technology",
     "industry": "Software - Application",
-    "marketCap": "$91.5 Billion",
-    "marketCapNum": 91.5,
-    "peRatio": "66.3x",
+    "marketCap": "$88.6 Billion",
+    "marketCapNum": 88.6,
+    "peRatio": "64.2x",
     "foundedYear": 1988
   },
   {
@@ -374,9 +374,9 @@
     "name": "MercadoLibre Inc.",
     "sector": "Consumer Discretionary",
     "industry": "Internet Retail",
-    "marketCap": "$74.8 Billion",
-    "marketCapNum": 74.8,
-    "peRatio": "39.6x",
+    "marketCap": "$75.6 Billion",
+    "marketCapNum": 75.6,
+    "peRatio": "40.0x",
     "foundedYear": 1999
   },
   {
@@ -384,9 +384,9 @@
     "name": "CrowdStrike Holdings",
     "sector": "Information Technology",
     "industry": "Software - Infrastructure",
-    "marketCap": "$235.4 Billion",
-    "marketCapNum": 235.4,
-    "peRatio": "4597.4x",
+    "marketCap": "$232.0 Billion",
+    "marketCapNum": 232.0,
+    "peRatio": "3776.8x",
     "foundedYear": 2011
   },
   {
@@ -394,9 +394,9 @@
     "name": "PayPal Holdings Inc.",
     "sector": "Financials",
     "industry": "Credit Services",
-    "marketCap": "$48.4 Billion",
-    "marketCapNum": 48.4,
-    "peRatio": "11.1x",
+    "marketCap": "$49.2 Billion",
+    "marketCapNum": 49.2,
+    "peRatio": "11.3x",
     "foundedYear": 1998
   },
   {
@@ -404,9 +404,9 @@
     "name": "NXP Semiconductors",
     "sector": "Information Technology",
     "industry": "Semiconductors",
-    "marketCap": "$67.4 Billion",
-    "marketCapNum": 67.4,
-    "peRatio": "21.0x",
+    "marketCap": "$66.8 Billion",
+    "marketCapNum": 66.8,
+    "peRatio": "20.9x",
     "foundedYear": 2006
   },
   {
@@ -414,9 +414,9 @@
     "name": "Marriott International",
     "sector": "Consumer Discretionary",
     "industry": "Lodging",
-    "marketCap": "$109.4 Billion",
-    "marketCapNum": 109.4,
-    "peRatio": "42.3x",
+    "marketCap": "$109.0 Billion",
+    "marketCapNum": 109.0,
+    "peRatio": "42.2x",
     "foundedYear": 1927
   },
   {
@@ -424,9 +424,9 @@
     "name": "CSX Corporation",
     "sector": "Industrials",
     "industry": "Railroads",
-    "marketCap": "$96.6 Billion",
-    "marketCapNum": 96.6,
-    "peRatio": "27.3x",
+    "marketCap": "$95.9 Billion",
+    "marketCapNum": 95.9,
+    "peRatio": "27.1x",
     "foundedYear": 1827
   },
   {
@@ -434,9 +434,9 @@
     "name": "O'Reilly Automotive",
     "sector": "Consumer Discretionary",
     "industry": "Specialty Retail",
-    "marketCap": "$73.4 Billion",
-    "marketCapNum": 73.4,
-    "peRatio": "28.1x",
+    "marketCap": "$73.9 Billion",
+    "marketCapNum": 73.9,
+    "peRatio": "28.3x",
     "foundedYear": 1957
   },
   {
@@ -444,9 +444,9 @@
     "name": "Cintas Corporation",
     "sector": "Industrials",
     "industry": "Specialty Business Services",
-    "marketCap": "$90.3 Billion",
-    "marketCapNum": 90.3,
-    "peRatio": "44.9x",
+    "marketCap": "$89.8 Billion",
+    "marketCapNum": 89.8,
+    "peRatio": "44.6x",
     "foundedYear": 1968
   },
   {
@@ -454,9 +454,9 @@
     "name": "Charter Communications",
     "sector": "Communication Services",
     "industry": "Entertainment",
-    "marketCap": "$23.8 Billion",
-    "marketCapNum": 23.8,
-    "peRatio": "12.5x",
+    "marketCap": "$24.8 Billion",
+    "marketCapNum": 24.8,
+    "peRatio": "13.0x",
     "foundedYear": 1993
   },
   {
@@ -464,9 +464,9 @@
     "name": "Airbnb Inc.",
     "sector": "Consumer Discretionary",
     "industry": "Travel Services",
-    "marketCap": "$108.1 Billion",
-    "marketCapNum": 108.1,
-    "peRatio": "34.0x",
+    "marketCap": "$111.5 Billion",
+    "marketCapNum": 111.5,
+    "peRatio": "35.0x",
     "foundedYear": 2008
   },
   {
@@ -474,9 +474,9 @@
     "name": "PACCAR Inc.",
     "sector": "Industrials",
     "industry": "Heavy Construction Machinery",
-    "marketCap": "$56.0 Billion",
-    "marketCapNum": 56.0,
-    "peRatio": "20.3x",
+    "marketCap": "$56.2 Billion",
+    "marketCapNum": 56.2,
+    "peRatio": "20.4x",
     "foundedYear": 1905
   },
   {
@@ -484,9 +484,9 @@
     "name": "Lululemon Athletica",
     "sector": "Consumer Discretionary",
     "industry": "Apparel Retail",
-    "marketCap": "$12.1 Billion",
-    "marketCapNum": 12.1,
-    "peRatio": "8.6x",
+    "marketCap": "$12.2 Billion",
+    "marketCapNum": 12.2,
+    "peRatio": "8.7x",
     "foundedYear": 1998
   },
   {
@@ -494,9 +494,9 @@
     "name": "Monster Beverage Corp.",
     "sector": "Consumer Staples",
     "industry": "Beverages - Non-Alcoholic",
-    "marketCap": "$89.2 Billion",
-    "marketCapNum": 89.2,
-    "peRatio": "41.4x",
+    "marketCap": "$90.9 Billion",
+    "marketCapNum": 90.9,
+    "peRatio": "42.2x",
     "foundedYear": 1935
   },
   {
@@ -504,9 +504,9 @@
     "name": "Keurig Dr Pepper Inc.",
     "sector": "Consumer Staples",
     "industry": "Beverages - Non-Alcoholic",
-    "marketCap": "$48.2 Billion",
-    "marketCapNum": 48.2,
-    "peRatio": "31.9x",
+    "marketCap": "$49.5 Billion",
+    "marketCapNum": 49.5,
+    "peRatio": "32.7x",
     "foundedYear": 2018
   },
   {
@@ -514,9 +514,9 @@
     "name": "DexCom Inc.",
     "sector": "Healthcare",
     "industry": "Medical Devices",
-    "marketCap": "$30.4 Billion",
-    "marketCapNum": 30.4,
-    "peRatio": "32.0x",
+    "marketCap": "$31.1 Billion",
+    "marketCapNum": 31.1,
+    "peRatio": "32.8x",
     "foundedYear": 1999
   },
   {
@@ -524,9 +524,9 @@
     "name": "Fortinet Inc.",
     "sector": "Information Technology",
     "industry": "Software - Infrastructure",
-    "marketCap": "$95.2 Billion",
-    "marketCapNum": 95.2,
-    "peRatio": "42.3x",
+    "marketCap": "$93.5 Billion",
+    "marketCapNum": 93.5,
+    "peRatio": "41.6x",
     "foundedYear": 2000
   },
   {
@@ -534,8 +534,8 @@
     "name": "The Kraft Heinz Company",
     "sector": "Consumer Staples",
     "industry": "Packaged Foods",
-    "marketCap": "$29.0 Billion",
-    "marketCapNum": 29.0,
+    "marketCap": "$29.7 Billion",
+    "marketCapNum": 29.7,
     "peRatio": "13.8x",
     "foundedYear": 2015
   },
@@ -544,9 +544,9 @@
     "name": "Analog Devices Inc.",
     "sector": "Information Technology",
     "industry": "Semiconductors",
-    "marketCap": "$198.3 Billion",
-    "marketCapNum": 198.3,
-    "peRatio": "48.6x",
+    "marketCap": "$192.8 Billion",
+    "marketCapNum": 192.8,
+    "peRatio": "47.3x",
     "foundedYear": 1965
   },
   {
@@ -554,9 +554,9 @@
     "name": "Ross Stores Inc.",
     "sector": "Consumer Discretionary",
     "industry": "Apparel Retail",
-    "marketCap": "$76.1 Billion",
-    "marketCapNum": 76.1,
-    "peRatio": "28.7x",
+    "marketCap": "$74.3 Billion",
+    "marketCapNum": 74.3,
+    "peRatio": "28.0x",
     "foundedYear": 1982
   },
   {
@@ -564,9 +564,9 @@
     "name": "Copart Inc.",
     "sector": "Industrials",
     "industry": "Specialty Business Services",
-    "marketCap": "$29.6 Billion",
-    "marketCapNum": 29.6,
-    "peRatio": "20.6x",
+    "marketCap": "$29.5 Billion",
+    "marketCapNum": 29.5,
+    "peRatio": "20.5x",
     "foundedYear": 1982
   },
   {
@@ -574,9 +574,9 @@
     "name": "IDEXX Laboratories Inc.",
     "sector": "Healthcare",
     "industry": "Diagnostics & Research",
-    "marketCap": "$55.0 Billion",
-    "marketCapNum": 55.0,
-    "peRatio": "47.0x",
+    "marketCap": "$55.5 Billion",
+    "marketCapNum": 55.5,
+    "peRatio": "47.5x",
     "foundedYear": 1983
   },
   {
@@ -584,9 +584,9 @@
     "name": "Paychex Inc.",
     "sector": "Industrials",
     "industry": "Staffing & Employment Services",
-    "marketCap": "$41.0 Billion",
-    "marketCapNum": 41.0,
-    "peRatio": "22.9x",
+    "marketCap": "$41.2 Billion",
+    "marketCapNum": 41.2,
+    "peRatio": "23.0x",
     "foundedYear": 1971
   },
   {
@@ -594,9 +594,9 @@
     "name": "Exelon Corporation",
     "sector": "Utilities",
     "industry": "Utilities - Regulated Electric",
-    "marketCap": "$47.2 Billion",
-    "marketCapNum": 47.2,
-    "peRatio": "17.8x",
+    "marketCap": "$47.9 Billion",
+    "marketCapNum": 47.9,
+    "peRatio": "18.1x",
     "foundedYear": 2000
   },
   {
@@ -604,9 +604,9 @@
     "name": "Fastenal Company",
     "sector": "Industrials",
     "industry": "Industrial Distribution",
-    "marketCap": "$63.7 Billion",
-    "marketCapNum": 63.7,
-    "peRatio": "45.2x",
+    "marketCap": "$63.3 Billion",
+    "marketCapNum": 63.3,
+    "peRatio": "44.9x",
     "foundedYear": 1967
   },
   {
@@ -614,9 +614,9 @@
     "name": "Constellation Energy",
     "sector": "Utilities",
     "industry": "Utilities - Renewable",
-    "marketCap": "$99.3 Billion",
-    "marketCapNum": 99.3,
-    "peRatio": "22.7x",
+    "marketCap": "$98.5 Billion",
+    "marketCapNum": 98.5,
+    "peRatio": "22.5x",
     "foundedYear": 1816
   },
   {
@@ -624,9 +624,9 @@
     "name": "Atlassian Corporation",
     "sector": "Information Technology",
     "industry": "Software - Application",
-    "marketCap": "$38.6 Billion",
-    "marketCapNum": 38.6,
-    "peRatio": "461.5x",
+    "marketCap": "$37.8 Billion",
+    "marketCapNum": 37.8,
+    "peRatio": "454.5x",
     "foundedYear": 2002
   },
   {
@@ -634,9 +634,9 @@
     "name": "Verisk Analytics Inc.",
     "sector": "Industrials",
     "industry": "Consulting Services",
-    "marketCap": "$26.5 Billion",
-    "marketCapNum": 26.5,
-    "peRatio": "31.3x",
+    "marketCap": "$26.7 Billion",
+    "marketCapNum": 26.7,
+    "peRatio": "31.5x",
     "foundedYear": 1971
   },
   {
@@ -644,9 +644,9 @@
     "name": "Diamondback Energy",
     "sector": "Energy",
     "industry": "Oil & Gas E&P",
-    "marketCap": "$50.9 Billion",
-    "marketCapNum": 50.9,
-    "peRatio": "24.5x",
+    "marketCap": "$51.6 Billion",
+    "marketCapNum": 51.6,
+    "peRatio": "24.9x",
     "foundedYear": 2007
   },
   {
@@ -654,9 +654,9 @@
     "name": "Biogen Inc.",
     "sector": "Healthcare",
     "industry": "Biotechnology",
-    "marketCap": "$37.0 Billion",
-    "marketCapNum": 37.0,
-    "peRatio": "108.4x",
+    "marketCap": "$37.5 Billion",
+    "marketCapNum": 37.5,
+    "peRatio": "109.7x",
     "foundedYear": 1978
   },
   {
@@ -664,9 +664,9 @@
     "name": "Dollar Tree Inc.",
     "sector": "Consumer Staples",
     "industry": "Discount Stores",
-    "marketCap": "$26.5 Billion",
-    "marketCapNum": 26.5,
-    "peRatio": "17.2x",
+    "marketCap": "$25.9 Billion",
+    "marketCapNum": 25.9,
+    "peRatio": "16.8x",
     "foundedYear": 1986
   },
   {
@@ -674,8 +674,8 @@
     "name": "Zscaler Inc.",
     "sector": "Information Technology",
     "industry": "Software - Infrastructure",
-    "marketCap": "$31.5 Billion",
-    "marketCapNum": 31.5,
+    "marketCap": "$31.4 Billion",
+    "marketCapNum": 31.4,
     "peRatio": "72.5x",
     "foundedYear": 2007
   },
@@ -684,8 +684,8 @@
     "name": "Intel Corporation",
     "sector": "Information Technology",
     "industry": "Semiconductors",
-    "marketCap": "$325.3 Billion",
-    "marketCapNum": 325.3,
+    "marketCap": "$317.1 Billion",
+    "marketCapNum": 317.1,
     "peRatio": "36.4x",
     "foundedYear": 1968
   },
@@ -694,9 +694,9 @@
     "name": "Dell Technologies",
     "sector": "Information Technology",
     "industry": "Computer Hardware",
-    "marketCap": "$236.0 Billion",
-    "marketCapNum": 236.0,
-    "peRatio": "21.6x",
+    "marketCap": "$219.1 Billion",
+    "marketCapNum": 219.1,
+    "peRatio": "20.0x",
     "foundedYear": 1984
   },
   {
@@ -704,9 +704,9 @@
     "name": "Microchip Technology",
     "sector": "Information Technology",
     "industry": "Semiconductors",
-    "marketCap": "$33.8 Billion",
-    "marketCapNum": 33.8,
-    "peRatio": "46.7x",
+    "marketCap": "$33.6 Billion",
+    "marketCapNum": 33.6,
+    "peRatio": "46.4x",
     "foundedYear": 1989
   },
   {
@@ -714,9 +714,9 @@
     "name": "eBay Inc.",
     "sector": "Consumer Discretionary",
     "industry": "Internet Retail",
-    "marketCap": "$52.7 Billion",
-    "marketCapNum": 52.7,
-    "peRatio": "26.2x",
+    "marketCap": "$53.1 Billion",
+    "marketCapNum": 53.1,
+    "peRatio": "26.4x",
     "foundedYear": 1995
   },
   {
@@ -734,9 +734,9 @@
     "name": "Enphase Energy Inc.",
     "sector": "Information Technology",
     "industry": "Solar",
-    "marketCap": "$3.5 Billion",
-    "marketCapNum": 3.5,
-    "peRatio": "40.0x",
+    "marketCap": "$3.4 Billion",
+    "marketCapNum": 3.4,
+    "peRatio": "38.9x",
     "foundedYear": 2006
   },
   {
@@ -744,9 +744,9 @@
     "name": "Datadog Inc.",
     "sector": "Information Technology",
     "industry": "Software - Application",
-    "marketCap": "$66.6 Billion",
-    "marketCapNum": 66.6,
-    "peRatio": "256.2x",
+    "marketCap": "$66.5 Billion",
+    "marketCapNum": 66.5,
+    "peRatio": "255.8x",
     "foundedYear": 2010
   },
   {
@@ -754,9 +754,9 @@
     "name": "Zoom Video Communications",
     "sector": "Information Technology",
     "industry": "Software - Application",
-    "marketCap": "$28.5 Billion",
-    "marketCapNum": 28.5,
-    "peRatio": "9.1x",
+    "marketCap": "$29.1 Billion",
+    "marketCapNum": 29.1,
+    "peRatio": "9.3x",
     "foundedYear": 2011
   },
   {
@@ -764,9 +764,9 @@
     "name": "DocuSign Inc.",
     "sector": "Information Technology",
     "industry": "Software - Application",
-    "marketCap": "$15.0 Billion",
-    "marketCapNum": 15.0,
-    "peRatio": "48.9x",
+    "marketCap": "$15.1 Billion",
+    "marketCapNum": 15.1,
+    "peRatio": "49.2x",
     "foundedYear": 2003
   },
   {
@@ -774,9 +774,9 @@
     "name": "Okta Inc.",
     "sector": "Information Technology",
     "industry": "Software - Infrastructure",
-    "marketCap": "$31.9 Billion",
-    "marketCapNum": 31.9,
-    "peRatio": "110.0x",
+    "marketCap": "$32.0 Billion",
+    "marketCapNum": 32.0,
+    "peRatio": "110.2x",
     "foundedYear": 2009
   },
   {
@@ -784,8 +784,8 @@
     "name": "Coinbase Global Inc.",
     "sector": "Financials",
     "industry": "Financial Data & Exchanges",
-    "marketCap": "$34.6 Billion",
-    "marketCapNum": 34.6,
+    "marketCap": "$33.8 Billion",
+    "marketCapNum": 33.8,
     "peRatio": "39.5x",
     "foundedYear": 2012
   },
@@ -794,8 +794,8 @@
     "name": "Rivian Automotive Inc.",
     "sector": "Consumer Discretionary",
     "industry": "Auto Manufacturers",
-    "marketCap": "$18.7 Billion",
-    "marketCapNum": 18.7,
+    "marketCap": "$17.8 Billion",
+    "marketCapNum": 17.8,
     "peRatio": "N/A (Growth)",
     "foundedYear": 2009
   },
@@ -804,8 +804,8 @@
     "name": "Lucid Group Inc.",
     "sector": "Consumer Discretionary",
     "industry": "Auto Manufacturers",
-    "marketCap": "$1.3 Billion",
-    "marketCapNum": 1.3,
+    "marketCap": "$1.2 Billion",
+    "marketCapNum": 1.2,
     "peRatio": "N/A (Growth)",
     "foundedYear": 2007
   },
@@ -814,9 +814,9 @@
     "name": "Palantir Technologies",
     "sector": "Information Technology",
     "industry": "Software - Infrastructure",
-    "marketCap": "$413.4 Billion",
-    "marketCapNum": 413.4,
-    "peRatio": "120.8x",
+    "marketCap": "$404.8 Billion",
+    "marketCapNum": 404.8,
+    "peRatio": "118.3x",
     "foundedYear": 2003
   },
   {
@@ -824,9 +824,9 @@
     "name": "Arm Holdings plc",
     "sector": "Information Technology",
     "industry": "Semiconductors",
-    "marketCap": "$213.8 Billion",
-    "marketCapNum": 213.8,
-    "peRatio": "229.6x",
+    "marketCap": "$203.9 Billion",
+    "marketCapNum": 203.9,
+    "peRatio": "219.0x",
     "foundedYear": 1990
   },
   {
@@ -834,8 +834,8 @@
     "name": "Super Micro Computer",
     "sector": "Information Technology",
     "industry": "Computer Hardware",
-    "marketCap": "$17.8 Billion",
-    "marketCapNum": 17.8,
+    "marketCap": "$17.7 Billion",
+    "marketCapNum": 17.7,
     "peRatio": "5.7x",
     "foundedYear": 1993
   },
@@ -844,9 +844,9 @@
     "name": "MongoDB Inc.",
     "sector": "Information Technology",
     "industry": "Software - Infrastructure",
-    "marketCap": "$27.3 Billion",
-    "marketCapNum": 27.3,
-    "peRatio": "471.9x",
+    "marketCap": "$26.9 Billion",
+    "marketCapNum": 26.9,
+    "peRatio": "464.2x",
     "foundedYear": 2007
   },
   {
@@ -854,8 +854,8 @@
     "name": "Cloudflare Inc.",
     "sector": "Information Technology",
     "industry": "Software - Infrastructure",
-    "marketCap": "$114.1 Billion",
-    "marketCapNum": 114.1,
+    "marketCap": "$109.6 Billion",
+    "marketCapNum": 109.6,
     "peRatio": "92.1x",
     "foundedYear": 2009
   },
@@ -864,9 +864,9 @@
     "name": "DoorDash Inc.",
     "sector": "Consumer Discretionary",
     "industry": "Internet Retail",
-    "marketCap": "$75.2 Billion",
-    "marketCapNum": 75.2,
-    "peRatio": "71.6x",
+    "marketCap": "$74.8 Billion",
+    "marketCapNum": 74.8,
+    "peRatio": "71.2x",
     "foundedYear": 2013
   },
   {
@@ -874,9 +874,9 @@
     "name": "Shopify Inc.",
     "sector": "Information Technology",
     "industry": "Software - Application",
-    "marketCap": "$188.8 Billion",
-    "marketCapNum": 188.8,
-    "peRatio": "90.0x",
+    "marketCap": "$189.2 Billion",
+    "marketCapNum": 189.2,
+    "peRatio": "90.2x",
     "foundedYear": 2006
   },
   {
@@ -884,9 +884,9 @@
     "name": "Spotify Technology S.A.",
     "sector": "Communication Services",
     "industry": "Entertainment",
-    "marketCap": "$123.0 Billion",
-    "marketCapNum": 123.0,
-    "peRatio": "36.5x",
+    "marketCap": "$125.9 Billion",
+    "marketCapNum": 125.9,
+    "peRatio": "37.3x",
     "foundedYear": 2006
   },
   {
@@ -894,9 +894,9 @@
     "name": "Uber Technologies Inc.",
     "sector": "Industrials",
     "industry": "Software - Infrastructure",
-    "marketCap": "$141.1 Billion",
-    "marketCapNum": 141.1,
-    "peRatio": "40.7x",
+    "marketCap": "$142.3 Billion",
+    "marketCapNum": 142.3,
+    "peRatio": "41.0x",
     "foundedYear": 2009
   },
   {
@@ -904,9 +904,9 @@
     "name": "Marvell Technology Inc.",
     "sector": "Information Technology",
     "industry": "Semiconductors",
-    "marketCap": "$148.0 Billion",
-    "marketCapNum": 148.0,
-    "peRatio": "54.1x",
+    "marketCap": "$141.0 Billion",
+    "marketCapNum": 141.0,
+    "peRatio": "51.6x",
     "foundedYear": 1995
   },
   {
@@ -914,8 +914,8 @@
     "name": "Snowflake Inc.",
     "sector": "Information Technology",
     "industry": "Software - Infrastructure",
-    "marketCap": "$105.4 Billion",
-    "marketCapNum": 105.4,
+    "marketCap": "$102.7 Billion",
+    "marketCapNum": 102.7,
     "peRatio": "N/A (Growth)",
     "foundedYear": 2012
   },
@@ -924,8 +924,8 @@
     "name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming",
-    "marketCap": "$36.8 Billion",
-    "marketCapNum": 36.8,
+    "marketCap": "$35.7 Billion",
+    "marketCapNum": 35.7,
     "peRatio": "N/A (Growth)",
     "foundedYear": 2004
   },
@@ -934,9 +934,9 @@
     "name": "Robinhood Markets Inc.",
     "sector": "Financials",
     "industry": "Capital Markets",
-    "marketCap": "$73.3 Billion",
-    "marketCapNum": 73.3,
-    "peRatio": "37.5x",
+    "marketCap": "$70.1 Billion",
+    "marketCapNum": 70.1,
+    "peRatio": "35.9x",
     "foundedYear": 2013
   },
   {
@@ -944,8 +944,8 @@
     "name": "Take-Two Interactive",
     "sector": "Communication Services",
     "industry": "Electronic Gaming",
-    "marketCap": "$42.5 Billion",
-    "marketCapNum": 42.5,
+    "marketCap": "$42.7 Billion",
+    "marketCapNum": 42.7,
     "peRatio": "31.4x",
     "foundedYear": 1993
   },
@@ -954,9 +954,9 @@
     "name": "Old Dominion Freight Line",
     "sector": "Industrials",
     "industry": "Trucking",
-    "marketCap": "$35.4 Billion",
-    "marketCapNum": 35.4,
-    "peRatio": "30.8x",
+    "marketCap": "$36.0 Billion",
+    "marketCapNum": 36.0,
+    "peRatio": "31.3x",
     "foundedYear": 1934
   },
   {
@@ -964,9 +964,9 @@
     "name": "ON Semiconductor",
     "sector": "Information Technology",
     "industry": "Semiconductors",
-    "marketCap": "$28.7 Billion",
-    "marketCapNum": 28.7,
-    "peRatio": "43.1x",
+    "marketCap": "$27.7 Billion",
+    "marketCapNum": 27.7,
+    "peRatio": "41.6x",
     "foundedYear": 1999
   },
   {
@@ -974,9 +974,9 @@
     "name": "Baker Hughes Company",
     "sector": "Energy",
     "industry": "Oil & Gas Equipment & Services",
-    "marketCap": "$48.5 Billion",
-    "marketCapNum": 48.5,
-    "peRatio": "16.8x",
+    "marketCap": "$49.1 Billion",
+    "marketCapNum": 49.1,
+    "peRatio": "17.0x",
     "foundedYear": 1907
   },
   {
@@ -984,9 +984,9 @@
     "name": "The Walt Disney Company",
     "sector": "Communication Services",
     "industry": "Entertainment",
-    "marketCap": "$204.1 Billion",
-    "marketCapNum": 204.1,
-    "peRatio": "24.4x",
+    "marketCap": "$205.4 Billion",
+    "marketCapNum": 205.4,
+    "peRatio": "24.5x",
     "foundedYear": 1923
   },
   {
@@ -994,9 +994,9 @@
     "name": "NIKE Inc.",
     "sector": "Consumer Discretionary",
     "industry": "Footwear & Accessories",
-    "marketCap": "$56.1 Billion",
-    "marketCapNum": 56.1,
-    "peRatio": "18.2x",
+    "marketCap": "$56.4 Billion",
+    "marketCapNum": 56.4,
+    "peRatio": "18.3x",
     "foundedYear": 1964
   }
 ]
